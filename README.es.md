@@ -2,7 +2,7 @@
 
 *[English](README.md) · Español*
 
-**[Demo en vivo](https://huggingface.co/spaces/JesusRLGonzalez/aps-failure-intelligence)** | **[Página del proyecto](https://jesusgonzalezmexdata-ux.github.io/aps-failure-intelligence/)**
+**[Demo en vivo](https://huggingface.co/spaces/JesusRLGonzalez/aps-failure-intelligence)** | **[Página del proyecto](https://jesusrlgonzalez.github.io/aps-failure-intelligence/)**
 
 **Pregunta.** ¿Qué camiones deben ir al taller a revisar el sistema de presión de aire (APS), si una falla no detectada cuesta 500 y una revisión innecesaria cuesta 10? Son los costos oficiales que Scania publicó con los datos.
 

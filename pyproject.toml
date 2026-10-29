@@ -14,7 +14,7 @@ readme = "README.md"
 dynamic = ["dependencies"]
 
 [project.urls]
-Repository = "https://github.com/jesusgonzalezmexdata-ux/aps-failure-intelligence"
+Repository = "https://github.com/jesusrlgonzalez/aps-failure-intelligence"
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}

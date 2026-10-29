@@ -20,9 +20,9 @@ CSS = """
 
 PIE = (
     '<footer class="pie">© 2026 Jesús R. L. González · Código bajo '
-    '<a href="https://github.com/jesusgonzalezmexdata-ux/aps-failure-intelligence/blob/main/LICENSE" target="_blank" rel="noopener">licencia Apache 2.0</a>'
+    '<a href="https://github.com/jesusrlgonzalez/aps-failure-intelligence/blob/main/LICENSE" target="_blank" rel="noopener">licencia Apache 2.0</a>'
     ' · Caso Scania: datos públicos APS (IDA 2016); flota de ejemplo simulada · '
-    '<a href="https://github.com/jesusgonzalezmexdata-ux/aps-failure-intelligence" target="_blank" rel="noopener">Código fuente</a></footer>'
+    '<a href="https://github.com/jesusrlgonzalez/aps-failure-intelligence" target="_blank" rel="noopener">Código fuente</a></footer>'
 )
 
 

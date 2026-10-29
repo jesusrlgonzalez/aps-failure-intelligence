@@ -7,7 +7,7 @@
 <meta name="description" content="A missed air-pressure-system failure costs 500; an unnecessary check costs 10. The model turns 170 anonymous truck readings into a check / no-check rule tuned to those costs.">
 <meta property="og:title" content="Which Scania trucks should go to the workshop?">
 <meta property="og:description" content="−94 % official cost against no triage">
-<meta property="og:image" content="https://jesusgonzalezmexdata-ux.github.io/aps-failure-intelligence/figures/cost_vs_threshold.png">
+<meta property="og:image" content="https://jesusrlgonzalez.github.io/aps-failure-intelligence/figures/cost_vs_threshold.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
@@ -64,22 +64,22 @@ footer a{font-weight:600}
 </head>
 <body>
 <div class="wrap">
-<header class="top"><a href="https://github.com/jesusgonzalezmexdata-ux">Jesús R. L. González</a><a href="https://github.com/jesusgonzalezmexdata-ux/aps-failure-intelligence">Source code on GitHub</a></header>
+<header class="top"><a href="https://github.com/jesusrlgonzalez">Jesús R. L. González</a><a href="https://github.com/jesusrlgonzalez/aps-failure-intelligence">Source code on GitHub</a></header>
 <main>
 <div class="hero">
 <div>
 <h1>Which Scania trucks should go to the workshop?</h1>
 <p class="lead">A missed air-pressure-system failure costs 500; an unnecessary check costs 10. The model turns 170 anonymous truck readings into a check / no-check rule tuned to those costs.</p>
-<div class="actions"><a class="btn primary" href="https://huggingface.co/spaces/JesusRLGonzalez/aps-failure-intelligence">Open the live demo</a><a class="btn secondary" href="https://github.com/jesusgonzalezmexdata-ux/aps-failure-intelligence">Read the code</a></div>
+<div class="actions"><a class="btn primary" href="https://huggingface.co/spaces/JesusRLGonzalez/aps-failure-intelligence">Open the live demo</a><a class="btn secondary" href="https://github.com/jesusrlgonzalez/aps-failure-intelligence">Read the code</a></div>
 </div>
 <div class="tagbox"><p class="tag"><span class="value">−94 %</span><span class="label">official cost against no triage</span><span class="note">Scania&#x27;s test set, 16,000 trucks, evaluated once</span></p></div>
 </div>
 <section aria-labelledby="result"><h2 id="result">What the result means</h2><dl class="facts"><div><dt>Failures caught</dt><dd>359 of 375 (95.7 %)</dd></div><div><dt>Workshop load</dt><dd>44.6 checks per 1,000 trucks</dd></div><div><dt>Official cost</dt><dd>11,540 (95 % interval 7,940–15,661) vs 187,500 with no triage</dd></div><div><dt>Robustness</dt><dd>88–96 % saving for any cost ratio from 10:1 to 100:1</dd></div></dl></section>
 <section aria-labelledby="chart"><h2 id="chart" class="visually-plain">The main chart</h2><figure><img src="figures/cost_vs_threshold.png" alt="Official cost per 1,000 trucks against the decision threshold, training and test" loading="lazy"><figcaption>Cost per 1,000 trucks against the decision threshold. The threshold was fixed on training data before the test set was opened.</figcaption></figure></section>
-<section class="two"><div><h2>How the decision was made</h2><ol><li>Byte-verified data; the official test set is sealed in code.</li><li>Baseline, candidates and a 12-configuration tuning budget, all fixed before results existed.</li><li>Decision threshold chosen on training out-of-fold scores only.</li><li>One evaluation on the test set, then stress tests, monitoring and recalibration.</li></ol></div><div><h2>What it does not claim</h2><ul><li>Classifies current readings; it does not forecast when a failure will happen.</li><li>Costs are the challenge&#x27;s units, not money.</li><li>Readings are anonymous, so drivers show which readings matter, not why.</li></ul><p><a href="https://github.com/jesusgonzalezmexdata-ux/aps-failure-intelligence/blob/main/MODEL_CARD.md">Model Card</a> and full evidence in the repository.</p></div></section>
+<section class="two"><div><h2>How the decision was made</h2><ol><li>Byte-verified data; the official test set is sealed in code.</li><li>Baseline, candidates and a 12-configuration tuning budget, all fixed before results existed.</li><li>Decision threshold chosen on training out-of-fold scores only.</li><li>One evaluation on the test set, then stress tests, monitoring and recalibration.</li></ol></div><div><h2>What it does not claim</h2><ul><li>Classifies current readings; it does not forecast when a failure will happen.</li><li>Costs are the challenge&#x27;s units, not money.</li><li>Readings are anonymous, so drivers show which readings matter, not why.</li></ul><p><a href="https://github.com/jesusrlgonzalez/aps-failure-intelligence/blob/main/MODEL_CARD.md">Model Card</a> and full evidence in the repository.</p></div></section>
 <section><div class="demo"><div><h2>Try it</h2><p>Set your own costs and fleet size; the rule is re-chosen on training data and its test-set consequences are shown.</p></div><a class="btn primary" href="https://huggingface.co/spaces/JesusRLGonzalez/aps-failure-intelligence">Open the live demo</a></div></section>
 </main>
-<footer><p>Other projects</p><ul><li><a href="https://jesusgonzalezmexdata-ux.github.io/steel-plates-quality-mlops/">Steel-plate defect classification</a></li><li><a href="https://jesusgonzalezmexdata-ux.github.io/predictive-maintenance-survival-cmapss/">Condition-based maintenance</a></li><li><a href="https://jesusgonzalezmexdata-ux.github.io/predictive-quality-mlops/">Predictive quality on SECOM</a></li><li><a href="https://jesusgonzalezmexdata-ux.github.io/scrap-copq-analytics/">Scrap and cost of poor quality</a></li><li><a href="https://jesusgonzalezmexdata-ux.github.io/predix/">Demand and inventory for grocery stores</a></li></ul><p>Jesús R. L. González, data scientist in manufacturing operations and quality.</p></footer>
+<footer><p>Other projects</p><ul><li><a href="https://jesusrlgonzalez.github.io/steel-plates-quality-mlops/">Steel-plate defect classification</a></li><li><a href="https://jesusrlgonzalez.github.io/predictive-maintenance-survival-cmapss/">Condition-based maintenance</a></li><li><a href="https://jesusrlgonzalez.github.io/predictive-quality-mlops/">Predictive quality on SECOM</a></li><li><a href="https://jesusrlgonzalez.github.io/scrap-copq-analytics/">Scrap and cost of poor quality</a></li><li><a href="https://jesusrlgonzalez.github.io/predix/">Demand and inventory for grocery stores</a></li></ul><p>Jesús R. L. González, data scientist in manufacturing operations and quality.</p></footer>
 </div>
 </body>
 </html>
