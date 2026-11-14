@@ -10,7 +10,7 @@
 
 | | Resultado |
 |---|---|
-| **Costo oficial** | **11,540** (intervalo 95 %: 7,940 – 15,661) frente a **187,500** sin triaje: **−94 %** |
+| **Costo oficial** | **11,540** (intervalo 95 %: 7,940 – 15,661) frente a **187,500** sin triaje: **−94 %**, en unidades de costo del reto IDA 2016 (no es moneda ni un ahorro medido en una empresa) |
 | Fallas detectadas | 359 de 375 (**95.7 %**) |
 | Carga de taller | **44.6 revisiones por cada 1,000 camiones**; una de cada dos encuentra una falla real |
 | Referencia publicada | Tres primeros del reto IDA 2016: 9,920 / 10,900 / 11,480. Mismo rango; el intervalo no permite separarlos |

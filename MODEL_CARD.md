@@ -29,7 +29,7 @@ Official cost (10 × unnecessary checks + 500 × missed failures) under 5-fold s
 | Checks per 1,000 trucks | 44.6 | 41.4 – 47.8 |
 | PR-AUC / ROC-AUC | 0.934 / 0.995 | 0.912 – 0.952 (PR-AUC) |
 
-Reference: no triage 187,500; check every truck 156,250; IDA 2016 top three 9,920 / 10,900 / 11,480.
+Reference (IDA 2016 challenge cost units, not currency): no triage 187,500; check every truck 156,250; IDA 2016 top three 9,920 / 10,900 / 11,480.
 
 ## Intended use
 

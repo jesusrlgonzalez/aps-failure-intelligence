@@ -13,7 +13,7 @@
 
 | | Result |
 |---|---|
-| **Official cost** | **11,540** (95 % interval 7,940 – 15,661) vs **187,500** with no triage: **−94 %** |
+| **Official cost** | **11,540** (95 % interval 7,940 – 15,661) vs **187,500** with no triage: **−94 %**, in IDA 2016 challenge cost units (not currency; not a saving measured at a company) |
 | Failures caught | 359 of 375 (**95.7 %** recall) |
 | Workshop load | **44.6 checks per 1,000 trucks**; one in two checks finds a real failure |
 | Published reference | IDA 2016 challenge top three: 9,920 / 10,900 / 11,480. Same range; the interval cannot separate them |
