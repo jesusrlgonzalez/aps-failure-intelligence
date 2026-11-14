@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>APS failure triage | Jesús R. L. González</title>
-<meta name="description" content="A missed air-pressure-system failure costs 500; an unnecessary check costs 10. The model turns 170 anonymous truck readings into a check / no-check rule tuned to those costs.">
+<meta name="description" content="In IDA 2016 challenge cost units, a missed air-pressure-system failure costs 500 and an unnecessary check costs 10. The model turns 170 anonymous truck readings into a check / no-check rule tuned to those costs.">
 <meta property="og:title" content="Which Scania trucks should go to the workshop?">
-<meta property="og:description" content="−94 % official cost against no triage">
+<meta property="og:description" content="−94 % official cost against no triage, in IDA 2016 challenge cost units (not currency)">
 <meta property="og:image" content="https://jesusrlgonzalez.github.io/aps-failure-intelligence/figures/cost_vs_threshold.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -69,10 +69,10 @@ footer a{font-weight:600}
 <div class="hero">
 <div>
 <h1>Which Scania trucks should go to the workshop?</h1>
-<p class="lead">A missed air-pressure-system failure costs 500; an unnecessary check costs 10. The model turns 170 anonymous truck readings into a check / no-check rule tuned to those costs.</p>
+<p class="lead">In IDA 2016 challenge cost units, a missed air-pressure-system failure costs 500 and an unnecessary check costs 10. The model turns 170 anonymous truck readings into a check / no-check rule tuned to those costs.</p>
 <div class="actions"><a class="btn primary" href="https://huggingface.co/spaces/JesusRLGonzalez/aps-failure-intelligence">Open the live demo</a><a class="btn secondary" href="https://github.com/jesusrlgonzalez/aps-failure-intelligence">Read the code</a></div>
 </div>
-<div class="tagbox"><p class="tag"><span class="value">−94 %</span><span class="label">official cost against no triage</span><span class="note">Scania&#x27;s test set, 16,000 trucks, evaluated once</span></p></div>
+<div class="tagbox"><p class="tag"><span class="value">−94 %</span><span class="label">official cost against no triage, in IDA 2016 challenge cost units</span><span class="note">Scania&#x27;s test set, 16,000 trucks, evaluated once</span></p></div>
 </div>
 <section aria-labelledby="result"><h2 id="result">What the result means</h2><dl class="facts"><div><dt>Failures caught</dt><dd>359 of 375 (95.7 %)</dd></div><div><dt>Workshop load</dt><dd>44.6 checks per 1,000 trucks</dd></div><div><dt>Official cost</dt><dd>11,540 (95 % interval 7,940–15,661) vs 187,500 with no triage, in IDA 2016 challenge cost units (not currency; not a saving measured at a company)</dd></div><div><dt>Robustness</dt><dd>88–96 % saving for any cost ratio from 10:1 to 100:1</dd></div></dl></section>
 <section aria-labelledby="chart"><h2 id="chart" class="visually-plain">The main chart</h2><figure><img src="figures/cost_vs_threshold.png" alt="Official cost per 1,000 trucks against the decision threshold, training and test" loading="lazy"><figcaption>Cost per 1,000 trucks against the decision threshold. The threshold was fixed on training data before the test set was opened.</figcaption></figure></section>
