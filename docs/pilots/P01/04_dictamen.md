@@ -12,7 +12,7 @@
 | G3 Integración operativa | PASS | Flujo semanal reproducible con cupo estricto (C3), revisión humana, suspensión y bitácora de cada decisión (C7) |
 | G4 Escenarios y robustez | PASS con reservas | S1–S3 y 48 combinaciones de sensibilidad. Reservas R1 y R2 |
 | G5 Auditoría y expediente | PASS (autoevaluación) | Este expediente y la constancia de la sección 4 |
-| G6 Publicación verificable | PASS | CI verde en el PR #6 (sección 5); versión `P01-v1.0.0`, publicada en el release `v1.4.0` |
+| G6 Publicación verificable | PASS con pendiente | CI verde en el PR #6 (sección 5) y fusión en `main` (`aa03cee`); versión `P01-v1.0.0`. Falta crear la etiqueta `v1.4.0`, que dispara el release con su paquete de evidencia: la crea el propietario |
 
 ## 2. Criterios
 
