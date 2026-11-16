@@ -12,7 +12,7 @@
 | G3 Integración operativa | PASS | Flujo semanal reproducible con cupo estricto (C3), revisión humana, suspensión y bitácora de cada decisión (C7) |
 | G4 Escenarios y robustez | PASS con reservas | S1–S3 y 48 combinaciones de sensibilidad. Reservas R1 y R2 |
 | G5 Auditoría y expediente | PASS (autoevaluación) | Este expediente y la constancia de la sección 4 |
-| G6 Publicación verificable | Se cumple al fusionar con CI verde | CI regenera las salidas y falla si difieren. Versión `P01-v1.0.0` |
+| G6 Publicación verificable | PASS | CI verde en el PR #6 (sección 5); versión `P01-v1.0.0`, publicada en el release `v1.4.0` |
 
 ## 2. Criterios
 
@@ -55,7 +55,7 @@ Sin incidencias críticas.
 | Entorno | Resultado |
 |---|---|
 | Local, Python 3.13 | Suite completa: 68 pasan, 2 omitidas; piloto 8 de 8 |
-| CI (Python 3.13.7) | PENDIENTE |
+| CI (Python 3.13.7), commit `561d5ce` | [Ejecución 43953129953](https://github.com/jesusrlgonzalez/aps-failure-intelligence/actions/runs/43953129953): pruebas, tablero e imagen Docker PASS; salidas del piloto regeneradas idénticas |
 
 ## 6. Condiciones para un piloto real (Nivel B)
 
