@@ -28,6 +28,8 @@ jobs:
         run: PYTHONPATH=src python -B -m aps_intel.contract > /dev/null
       - name: Tests (data integrity, sealed holdout, cost, CV, service, final guard)
         run: python -B -m pytest -q -p no:cacheprovider
+      - name: Pilot P01 outputs are reproducible (synthetic scenarios, docs/pilots/P01)
+        run: PYTHONPATH=src python -B -m aps_intel.pilot_p01 > /dev/null && git diff --exit-code reports/pilots/P01
 
   dashboard:
     name: Dashboard smoke test

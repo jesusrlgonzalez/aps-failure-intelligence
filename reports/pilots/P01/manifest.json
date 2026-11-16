@@ -1,0 +1,141 @@
+{
+ "empresa": "Transportes Ficticios del Altiplano, S.A. (empresa ficticia)",
+ "naturaleza": "Datos sintéticos generados con aps_intel.alert_intake.example_data; no son datos de Scania ni de una empresa real",
+ "semillas": {
+  "historial": 11,
+  "imperfecciones_historial": 21,
+  "operacion": "500 + semana",
+  "imperfecciones_operacion": 31
+ },
+ "reglas": {
+  "S1": [
+   {
+    "regla": "D2",
+    "tipo": "Puntaje ausente",
+    "filas": 45
+   },
+   {
+    "regla": "D3",
+    "tipo": "Cambio de unidades del puntaje (proveedor B, escala 0-1)",
+    "filas": 266
+   },
+   {
+    "regla": "D4",
+    "tipo": "Nomenclatura contradictoria",
+    "filas": 56
+   },
+   {
+    "regla": "D5",
+    "tipo": "Formatos de fecha mezclados (ISO y serial de Excel)",
+    "filas": 30
+   },
+   {
+    "regla": "D1",
+    "tipo": "Registros duplicados",
+    "filas": 17
+   }
+  ],
+  "S2": [
+   {
+    "regla": "D2",
+    "tipo": "Puntaje ausente",
+    "filas": 84
+   },
+   {
+    "regla": "D3",
+    "tipo": "Cambio de unidades del puntaje (proveedor B, escala 0-1)",
+    "filas": 247
+   },
+   {
+    "regla": "D4",
+    "tipo": "Nomenclatura contradictoria",
+    "filas": 84
+   },
+   {
+    "regla": "D5",
+    "tipo": "Formatos de fecha mezclados (ISO y serial de Excel)",
+    "filas": 30
+   },
+   {
+    "regla": "D1",
+    "tipo": "Registros duplicados",
+    "filas": 34
+   }
+  ],
+  "S3": [
+   {
+    "regla": "D2",
+    "tipo": "Puntaje ausente",
+    "filas": 73
+   },
+   {
+    "regla": "D3",
+    "tipo": "Cambio de unidades del puntaje (proveedor B, escala 0-1)",
+    "filas": 307
+   },
+   {
+    "regla": "D4",
+    "tipo": "Nomenclatura contradictoria",
+    "filas": 66
+   },
+   {
+    "regla": "D5",
+    "tipo": "Formatos de fecha mezclados (ISO y serial de Excel)",
+    "filas": 36
+   },
+   {
+    "regla": "D1",
+    "tipo": "Registros duplicados",
+    "filas": 20
+   }
+  ],
+  "historial": [
+   {
+    "regla": "D6",
+    "tipo": "Errores de integración",
+    "filas": 7
+   },
+   {
+    "regla": "D2",
+    "tipo": "Puntaje ausente",
+    "filas": 107
+   },
+   {
+    "regla": "D3",
+    "tipo": "Cambio de unidades del puntaje (proveedor B, escala 0-1)",
+    "filas": 322
+   },
+   {
+    "regla": "D4",
+    "tipo": "Nomenclatura contradictoria",
+    "filas": 134
+   },
+   {
+    "regla": "D5",
+    "tipo": "Formatos de fecha mezclados (ISO y serial de Excel)",
+    "filas": 69
+   },
+   {
+    "regla": "D7",
+    "tipo": "Resultado aún abierto (ventana de 30 días sin cerrar)",
+    "filas": 259
+   },
+   {
+    "regla": "D1",
+    "tipo": "Registros duplicados",
+    "filas": 40
+   }
+  ]
+ },
+ "conciliacion_historial": {
+  "filas_recibidas": 1383,
+  "nomenclatura_corregida": 134,
+  "tipos_desconocidos": 0,
+  "puntaje_reescalado": 335,
+  "resultado_pendiente": 271,
+  "filas_validas": 1078,
+  "filas_excluidas": 6,
+  "duplicados_eliminados": 28,
+  "sin_puntaje": 0.08
+ }
+}

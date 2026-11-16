@@ -32,6 +32,8 @@ Scania's 170 readings are internal to the manufacturer, so the product is the **
 
 On the simulated example fleet (140 tractors, 26 weeks), the rule chosen on the first 17 weeks would have cost **MXN 476 k less** than the current practice over the last 9 weeks (90 % interval 206–724 k), with 9 road breakdowns instead of 23. The file is processed in the visitor's browser and never leaves it. Pilot protocol and stop criteria: [`docs/MVP_PILOTO.md`](docs/MVP_PILOTO.md) (Spanish).
 
+**Demonstration case P01 (level A, fictitious company, synthetic data, no real pilot):** weekly triage under a hard workshop cap, starting from an export with seven kinds of data defects, with human review, suspension rules, three scenarios and a cost, capacity and score-quality sensitivity. Verdict: approved with reservations (self-assessment). [`docs/pilots/P01/`](docs/pilots/P01/README.md) (Spanish).
+
 ## Why this result can be trusted
 
 - **One look at the test set.** It is sealed in code (`load_holdout` raises `HoldoutSealed` unless called for the final evaluation) and a reservation file blocks a second evaluation. The rules for that evaluation and the analysis plan were committed **before** it ran.

@@ -1,0 +1,1384 @@
+id_alerta,unidad,fecha,tipo_alerta,puntaje,revisada,falla,proveedor
+H-00001,T-222,07/01/2026,Presión de aire baja,20,sí,no,B
+H-00002,T-220,05/01/2026,Presión de aire baja,38,sí,no,B
+H-00003,T-232,10/01/2026,Presión de aire baja,50,sí,no,B
+H-00004,T-144,08/01/2026,Presión de aire baja,36,sí,no,A
+H-00005,T-201,06/01/2026,Presión de aire baja,21,sí,no,B
+H-00006,T-210,08/01/2026,Presión de aire baja,21,sí,no,B
+H-00007,T-240,06/01/2026,Temperatura de refrigerante alta,48,sí,no,B
+H-00008,T-148,11/01/2026,Temperatura de refrigerante alta,28,no,no,A
+H-00009,T-101,11/01/2026,Temperatura de refrigerante alta,16,no,no,A
+H-00010,T-127,10/01/2026,Temperatura de refrigerante alta,62,no,sí,A
+H-00011,T-102,08/01/2026,Presión de aceite baja,69,sí,sí,A
+H-00012,T-230,05/01/2026,Low oil pressure,66,sí,no,B
+H-00013,T-192,2026-01-08,Voltaje de batería bajo,34,no,no,B
+H-00014,T-157,11/01/2026,Voltaje de batería bajo,37,no,no,A
+H-00015,T-240,10/01/2026,Voltaje de batería bajo,17,sí,no,B
+H-00016,T-124,10/01/2026,Voltaje de batería bajo,18,no,no,A
+H-00017,T-224,10/01/2026,Voltaje de batería bajo,30,no,no,B
+H-00018,T-193,08/01/2026,Voltaje de batería bajo,25,no,no,B
+H-00019,T-110,07/01/2026,Voltaje de batería bajo,25,sí,no,A
+H-00020,T-223,07/01/2026,Voltaje de batería bajo,27,sí,no,B
+H-00021,T-123,07/01/2026,Filtro de partículas saturado,40,no,no,A
+H-00022,T-228,07/01/2026,Filtro de partículas saturado,67,no,sí,B
+H-00023,T-196,11/01/2026,Filtro de partículas saturado,10,no,no,B
+H-00024,T-236,09/01/2026,Filtro de partículas saturado,54,sí,sí,B
+H-00025,T-186,10/01/2026,Filtro de partículas saturado,16,no,no,B
+H-00026,T-150,06/01/2026,Filtro de partículas saturado,26,sí,no,A
+H-00027,T-175,09/01/2026,Filtro de partículas saturado,,no,no,B
+H-00028,T-119,10/01/2026,Sensor ABS intermitente,41,no,no,A
+H-00029,T-158,06/01/2026,Sensor ABS intermitente,29,no,no,A
+H-00030,T-169,06/01/2026,Sensor ABS intermitente,,no,no,A
+H-00031,T-198,10/01/2026,Sensor ABS intermitente,35,sí,no,B
+H-00032,T-197,11/01/2026,Sensor ABS intermitente,19,no,no,B
+H-00033,T-128,08/01/2026,ABS intermitente,4,no,no,A
+H-00034,T-130,09/01/2026,Sensor ABS intermitente,9,no,no,A
+H-00035,T-171,11/01/2026,Sensor ABS intermitente,27,no,no,B
+H-00036,T-154,07/01/2026,Sensor ABS intermitente,58,no,no,A
+H-00037,T-140,08/01/2026,Sensor ABS intermitente,28,no,no,A
+H-00038,T-226,05/01/2026,Sensor ABS intermitente,23,sí,no,B
+H-00039,T-221,09/01/2026,Desgaste de balatas,,sí,sí,B
+H-00040,T-112,11/01/2026,Desgaste de balatas,48,sí,no,A
+H-00041,T-174,10/01/2026,Desgaste de balatas,51,sí,no,B
+H-00042,T-130,07/01/2026,Desgaste de balatas,35,sí,no,A
+H-00043,T-208,10/01/2026,Falla de comunicación CAN,11,no,no,B
+H-00044,T-237,11/01/2026,Falla de comunicación CAN,10,no,no,B
+H-00045,T-142,07/01/2026,Falla CAN,3,no,no,A
+H-00046,T-223,05/01/2026,Falla de comunicación CAN,49,no,no,B
+H-00047,T-210,05/01/2026,Falla de comunicación CAN,35,no,no,B
+H-00048,T-146,06/01/2026,Falla de comunicación CAN,15,sí,no,A
+H-00049,T-202,08/01/2026,Falla de comunicación CAN,43,no,no,B
+H-00050,T-136,06/01/2026,Falla de comunicación CAN,,no,no,A
+H-00051,T-109,09/01/2026,Falla de comunicación CAN,3,no,no,A
+H-00052,T-210,09/01/2026,Falla de comunicación CAN,12,no,no,B
+H-00053,T-113,14/01/2026,Presión de aire baja,12,sí,no,A
+H-00054,T-238,16/01/2026,Presión de aire baja,40,sí,no,B
+H-00055,T-203,17/01/2026,Presión de aire baja,,sí,no,B
+H-00056,T-101,13/01/2026,Presión de aire baja,17,sí,sí,A
+H-00057,T-186,15/01/2026,Presión de aire baja,73,sí,sí,B
+H-00058,T-143,16/01/2026,Low air pressure,36,sí,no,A
+H-00059,T-218,2026-01-14,Presión de aire baja,53,sí,no,B
+H-00060,T-221,18/01/2026,Presión de aire baja,,sí,no,B
+H-00061,T-102,13/01/2026,Presión de aire baja,4,sí,no,A
+H-00062,T-134,2026-01-17,Presión de aire baja,52,sí,no,A
+H-00063,T-237,13/01/2026,Pres. aire baja,51,sí,sí,B
+H-00064,T-132,16/01/2026,TEMP REFRIGERANTE ALTA,54,no,no,A
+H-00065,T-205,12/01/2026,Temperatura de refrigerante alta,41,sí,no,B
+H-00066,T-225,18/01/2026,Temperatura de refrigerante alta,57,sí,no,B
+H-00067,T-232,14/01/2026,Temperatura de refrigerante alta,24,sí,no,B
+H-00068,T-118,18/01/2026,Temperatura de refrigerante alta,20,sí,sí,A
+H-00069,T-216,14/01/2026,Temperatura de refrigerante alta,45,no,no,B
+H-00070,T-106,17/01/2026,Presión de aceite baja,55,sí,no,A
+H-00071,T-132,16/01/2026,Presión de aceite baja,39,sí,no,A
+H-00072,T-138,14/01/2026,Presión de aceite baja,25,sí,no,A
+H-00073,T-212,18/01/2026,Presión de aceite baja,9,sí,no,B
+H-00074,T-211,17/01/2026,Voltaje de batería bajo,,sí,no,B
+H-00075,T-182,18/01/2026,Voltaje de batería bajo,23,sí,no,B
+H-00076,T-147,17/01/2026,VOLTAJE BATERIA BAJO,29,no,no,A
+H-00077,T-222,14/01/2026,Voltaje de batería bajo,45,no,no,B
+H-00078,T-133,15/01/2026,Voltaje de batería bajo,22,no,no,A
+H-00079,T-237,13/01/2026,Voltaje de batería bajo,14,sí,no,B
+H-00080,T-124,16/01/2026,VOLTAJE BATERIA BAJO,19,no,no,A
+H-00081,T-201,2026-01-15,Voltaje de batería bajo,13,no,no,B
+H-00082,T-118,13/01/2026,Voltaje de batería bajo,28,sí,no,A
+H-00083,T-216,13/01/2026,Voltaje de batería bajo,34,no,no,B
+H-00084,T-147,13/01/2026,Voltaje de batería bajo,38,sí,no,A
+H-00085,T-117,13/01/2026,Voltaje de batería bajo,36,sí,no,A
+H-00086,T-135,15/01/2026,Voltaje de batería bajo,32,no,no,A
+H-00087,T-167,12/01/2026,Voltaje de batería bajo,33,sí,no,A
+H-00088,T-181,16/01/2026,Low battery voltage,64,no,no,B
+H-00089,T-218,2026-01-16,Filtro de partículas saturado,34,no,no,B
+H-00090,T-116,15/01/2026,Filtro de partículas saturado,,sí,no,A
+H-00091,T-180,18/01/2026,Filtro de partículas saturado,47,no,no,B
+H-00092,T-142,15/01/2026,Filtro de partículas saturado,,no,sí,A
+H-00093,T-234,16/01/2026,Filtro de partículas saturado,27,no,no,B
+H-00094,T-165,18/01/2026,Filtro de partículas saturado,36,no,no,A
+H-00095,T-203,15/01/2026,DPF saturado,38,no,sí,B
+H-00096,T-215,14/01/2026,Filtro de partículas saturado,55,sí,no,B
+H-00097,T-195,13/01/2026,Filtro de partículas saturado,21,no,no,B
+H-00098,T-160,18/01/2026,Filtro de partículas saturado,46,sí,no,A
+H-00099,T-220,18/01/2026,FILTRO PARTICULAS SATURADO,35,no,no,B
+H-00100,T-104,15/01/2026,Sensor ABS intermitente,34,sí,no,A
+H-00101,T-220,17/01/2026,Sensor ABS intermitente,32,no,no,B
+H-00102,T-239,17/01/2026,Sensor ABS intermitente,,no,no,B
+H-00103,T-125,13/01/2026,Sensor ABS intermitente,7,no,no,A
+H-00104,T-107,15/01/2026,Sensor ABS intermitente,67,sí,sí,A
+H-00105,T-141,16/01/2026,Sensor ABS intermitente,22,sí,no,A
+H-00106,T-226,12/01/2026,Sensor ABS intermitente,37,sí,no,B
+H-00107,T-234,12/01/2026,Sensor ABS intermitente,38,sí,no,B
+H-00108,T-179,14/01/2026,Sensor ABS intermitente,6,sí,no,B
+H-00109,T-182,15/01/2026,Sensor ABS intermitente,28,no,no,B
+H-00110,T-235,12/01/2026,Sensor ABS intermitente,8,no,no,B
+H-00111,T-141,13/01/2026,Sensor ABS intermitente,77,no,no,A
+H-00112,T-154,12/01/2026,Sensor ABS intermitente,50,sí,no,A
+H-00113,T-140,18/01/2026,Sensor ABS intermitente,17,no,no,A
+H-00114,T-192,16/01/2026,Sensor ABS intermitente,19,no,no,B
+H-00115,T-207,14/01/2026,Desgaste de balatas,78,sí,no,B
+H-00116,T-137,17/01/2026,Desgaste de balatas,61,sí,sí,A
+H-00117,T-208,15/01/2026,Falla de comunicación CAN,,no,no,B
+H-00118,T-115,15/01/2026,Falla de comunicación CAN,16,no,no,A
+H-00119,T-135,18/01/2026,Falla de comunicación CAN,71,no,no,A
+H-00120,T-204,13/01/2026,Falla de comunicación CAN,3,no,no,B
+H-00121,T-217,17/01/2026,Falla de comunicación CAN,42,no,no,B
+H-00122,T-111,12/01/2026,Falla de comunicación CAN,3,sí,no,A
+H-00123,T-138,17/01/2026,Falla de comunicación CAN,19,sí,no,A
+H-00124,T-193,21/01/2026,Presión de aire baja,41,sí,no,B
+H-00125,T-123,25/01/2026,Presión de aire baja,19,sí,no,A
+H-00126,T-193,25/01/2026,Presión de aire baja,76,sí,sí,B
+H-00127,T-224,22/01/2026,Presión de aire baja,53,sí,no,B
+H-00128,T-102,22/01/2026,Presión de aire baja,51,sí,no,A
+H-00129,T-118,23/01/2026,Presión de aire baja,70,sí,sí,A
+H-00130,T-139,19/01/2026,Temperatura de refrigerante alta,43,no,no,A
+H-00131,T-164,23/01/2026,Temperatura de refrigerante alta,90,no,sí,A
+H-00132,T-201,20/01/2026,Temperatura de refrigerante alta,20,sí,no,B
+H-00133,T-113,24/01/2026,Temperatura de refrigerante alta,,sí,no,A
+H-00134,T-201,19/01/2026,Presión de aceite baja,,sí,sí,B
+H-00135,T-223,21/01/2026,Voltaje de batería bajo,10,no,no,B
+H-00136,T-229,24/01/2026,Voltaje de batería bajo,12,sí,no,B
+H-00137,T-121,19/01/2026,VOLTAJE BATERIA BAJO,11,no,no,A
+H-00138,T-105,25/01/2026,Voltaje de batería bajo,,no,no,A
+H-00139,T-135,2026-01-23,Voltaje de batería bajo,46,no,no,A
+H-00140,T-216,23/01/2026,Voltaje de batería bajo,,sí,no,B
+H-00141,T-126,22/01/2026,Voltaje de batería bajo,7,no,no,A
+H-00142,T-119,23/01/2026,Voltaje de batería bajo,16,sí,no,A
+H-00143,T-228,19/01/2026,Voltaje de batería bajo,,no,no,B
+H-00144,T-175,23/01/2026,Voltaje de batería bajo,3,no,no,B
+H-00145,T-207,23/01/2026,Voltaje de batería bajo,26,no,no,B
+H-00146,T-148,2026-01-22,Filtro de partículas saturado,84,no,no,A
+H-00147,T-214,25/01/2026,Filtro de partículas saturado,3,sí,no,B
+H-00148,T-211,21/01/2026,Filtro de partículas saturado,33,sí,no,B
+H-00149,T-208,24/01/2026,Filtro de partículas saturado,62,no,sí,B
+H-00150,T-221,19/01/2026,Filtro de partículas saturado,70,sí,no,B
+H-00151,T-140,21/01/2026,Filtro de partículas saturado,56,sí,no,A
+H-00152,T-110,21/01/2026,Sensor ABS intermitente,13,sí,no,A
+H-00153,T-128,25/01/2026,Sensor ABS intermitente,,no,no,A
+H-00154,T-203,25/01/2026,Sensor ABS intermitente,30,no,no,B
+H-00155,T-229,21/01/2026,Sensor ABS intermitente,14,sí,no,B
+H-00156,T-116,21/01/2026,Sensor ABS intermitente,2,no,no,A
+H-00157,T-192,2026-01-19,Sensor ABS intermitente,4,no,no,B
+H-00158,T-202,19/01/2026,Sensor ABS intermitente,48,sí,no,B
+H-00159,T-234,24/01/2026,Sensor ABS intermitente,45,no,no,B
+H-00160,T-126,21/01/2026,Sensor ABS intermitente,16,sí,no,A
+H-00161,T-104,22/01/2026,Sensor ABS intermitente,27,sí,no,A
+H-00162,T-228,20/01/2026,Sensor ABS intermitente,3,no,no,B
+H-00163,T-187,23/01/2026,Sensor ABS intermitente,18,no,no,B
+H-00164,T-217,21/01/2026,Sensor ABS intermitente,19,no,no,B
+H-00165,T-128,21/01/2026,Sensor ABS intermitente,24,no,no,A
+H-00166,T-192,21/01/2026,Sensor ABS intermitente,65,no,no,B
+H-00167,T-131,25/01/2026,ABS sensor intermittent,25,no,no,A
+H-00168,T-174,24/01/2026,Desgaste de balatas,87,sí,sí,B
+H-00169,T-190,24/01/2026,Falla de comunicación CAN,6,no,no,B
+H-00170,T-161,21/01/2026,Falla de comunicación CAN,7,no,no,A
+H-00171,T-113,25/01/2026,Falla de comunicación CAN,23,no,no,A
+H-00172,T-143,23/01/2026,Falla de comunicación CAN,32,sí,no,A
+H-00173,T-210,23/01/2026,Falla de comunicación CAN,36,no,no,B
+H-00174,T-119,24/01/2026,Falla de comunicación CAN,6,sí,no,A
+H-00175,T-219,22/01/2026,Falla de comunicación CAN,46,no,no,B
+H-00176,T-180,23/01/2026,Falla de comunicación CAN,33,no,no,B
+H-00177,T-126,19/01/2026,Falla de comunicación CAN,38,no,no,A
+H-00178,T-169,19/01/2026,CAN communication fault,2,sí,no,A
+H-00179,T-202,01/02/2026,Presión de aire baja,11,sí,no,B
+H-00180,T-134,01/02/2026,Presión de aire baja,,sí,no,A
+H-00181,T-147,28/01/2026,Presión de aire baja,23,sí,no,A
+H-00182,T-128,28/01/2026,Presión de aire baja,28,sí,no,A
+H-00183,T-122,29/01/2026,Presión de aire baja,74,sí,no,A
+H-00184,T-211,26/01/2026,Low air pressure,40,sí,no,B
+H-00185,T-214,28/01/2026,Presión de aire baja,60,sí,no,B
+H-00186,T-221,28/01/2026,PRESION DE AIRE BAJA,34,sí,no,B
+H-00187,T-119,30/01/2026,Temperatura de refrigerante alta,83,sí,no,A
+H-00188,T-171,31/01/2026,Temperatura de refrigerante alta,44,no,no,B
+H-00189,T-118,01/02/2026,Temperatura de refrigerante alta,36,no,no,A
+H-00190,T-217,31/01/2026,Temperatura de refrigerante alta,17,no,no,B
+H-00191,T-174,30/01/2026,Temperatura de refrigerante alta,16,sí,no,B
+H-00192,T-125,26/01/2026,Temperatura de refrigerante alta,,sí,no,A
+H-00193,T-151,2026-01-26,Temperatura de refrigerante alta,22,sí,no,A
+H-00194,T-189,28/01/2026,Presión de aceite baja,50,sí,no,B
+H-00195,T-215,26/01/2026,Voltaje de batería bajo,10,no,no,B
+H-00196,T-194,27/01/2026,Voltaje de batería bajo,40,no,no,B
+H-00197,T-203,31/01/2026,Voltaje de batería bajo,21,no,no,B
+H-00198,T-190,29/01/2026,Voltaje de batería bajo,19,no,no,B
+H-00199,T-196,26/01/2026,Voltaje de batería bajo,37,sí,no,B
+H-00200,T-140,01/02/2026,Voltaje de batería bajo,7,no,no,A
+H-00201,T-104,01/02/2026,Voltaje de batería bajo,68,sí,no,A
+H-00202,T-123,31/01/2026,Voltaje de batería bajo,16,no,no,A
+H-00203,T-142,30/01/2026,VOLTAJE BATERIA BAJO,23,no,no,A
+H-00204,T-220,01/02/2026,Voltaje de batería bajo,,sí,no,B
+H-00205,T-233,28/01/2026,Voltaje de batería bajo,18,sí,no,B
+H-00206,T-222,31/01/2026,Voltaje de batería bajo,10,no,no,B
+H-00207,T-161,26/01/2026,Voltaje de batería bajo,12,no,no,A
+H-00208,T-124,26/01/2026,Filtro de partículas saturado,37,no,no,A
+H-00209,T-115,2026-01-31,Filtro de partículas saturado,43,no,no,A
+H-00210,T-233,27/01/2026,Filtro de partículas saturado,12,sí,no,B
+H-00211,T-130,29/01/2026,Filtro de partículas saturado,,no,no,A
+H-00212,T-178,27/01/2026,Filtro de partículas saturado,16,no,no,B
+H-00213,T-149,26/01/2026,Filtro de partículas saturado,12,no,no,A
+H-00214,T-153,26/01/2026,Filtro de partículas saturado,12,no,no,A
+H-00215,T-192,2026-02-01,Filtro de partículas saturado,44,sí,no,B
+H-00216,T-107,30/01/2026,Filtro de partículas saturado,67,sí,no,A
+H-00217,T-171,30/01/2026,Filtro de partículas saturado,,sí,no,B
+H-00218,T-205,30/01/2026,FILTRO PARTICULAS SATURADO,26,no,no,B
+H-00219,T-146,31/01/2026,Filtro de partículas saturado,4,no,no,A
+H-00220,T-117,31/01/2026,Sensor ABS intermitente,4,no,no,A
+H-00221,T-108,01/02/2026,Sensor ABS intermitente,6,no,no,A
+H-00222,T-117,2026-02-01,Sensor ABS intermitente,23,no,no,A
+H-00223,T-205,01/02/2026,Sensor ABS intermitente,28,no,no,B
+H-00224,T-155,01/02/2026,Sensor ABS intermitente,,no,no,A
+H-00225,T-209,26/01/2026,Sensor ABS intermitente,4,no,no,B
+H-00226,T-219,30/01/2026,Sensor ABS intermitente,12,no,no,B
+H-00227,T-136,30/01/2026,Sensor ABS intermitente,53,no,no,A
+H-00228,T-234,01/02/2026,Sensor ABS intermitente,26,sí,no,B
+H-00229,T-168,29/01/2026,ABS intermitente,14,no,no,A
+H-00230,T-213,27/01/2026,Sensor ABS intermitente,32,no,no,B
+H-00231,T-121,27/01/2026,Sensor ABS intermitente,53,no,no,A
+H-00232,T-141,30/01/2026,Sensor ABS intermitente,49,sí,no,A
+H-00233,T-188,27/01/2026,Brake pad wear,26,sí,no,B
+H-00234,T-226,30/01/2026,DESGASTE BALATAS,57,sí,sí,B
+H-00235,T-200,28/01/2026,Falla de comunicación CAN,5,no,no,B
+H-00236,T-207,27/01/2026,Falla de comunicación CAN,,no,no,B
+H-00237,T-239,27/01/2026,Falla de comunicación CAN,6,no,no,B
+H-00238,T-155,27/01/2026,CAN communication fault,19,sí,no,A
+H-00239,T-120,28/01/2026,Falla de comunicación CAN,,sí,no,A
+H-00240,T-217,01/02/2026,Falla de comunicación CAN,,no,no,B
+H-00241,T-181,03/02/2026,Presión de aire baja,55,sí,sí,B
+H-00242,T-169,08/02/2026,Presión de aire baja,28,sí,no,A
+H-00243,T-228,07/02/2026,Presión de aire baja,49,sí,no,B
+H-00244,T-164,04/02/2026,Presión de aire baja,17,sí,no,A
+H-00245,T-175,04/02/2026,Presión de aire baja,14,sí,no,B
+H-00246,T-108,08/02/2026,Presión de aire baja,20,sí,no,A
+H-00247,T-225,05/02/2026,Presión de aire baja,27,sí,no,B
+H-00248,T-168,04/02/2026,Presión de aire baja,63,sí,no,A
+H-00249,T-172,04/02/2026,Presión de aire baja,39,sí,no,B
+H-00250,T-154,03/02/2026,PRESION DE AIRE BAJA,88,sí,sí,A
+H-00251,T-168,03/02/2026,Presión de aire baja,9,sí,no,A
+H-00252,T-107,2026-02-04,Presión de aire baja,62,sí,no,A
+H-00253,T-172,02/02/2026,Presión de aire baja,30,sí,sí,B
+H-00254,T-141,03/02/2026,Presión de aire baja,71,sí,no,A
+H-00255,T-164,2026-02-03,Temperatura de refrigerante alta,12,no,no,A
+H-00256,T-151,02/02/2026,Temperatura de refrigerante alta,32,sí,no,A
+H-00257,T-186,02/02/2026,Temperatura de refrigerante alta,,sí,no,B
+H-00258,T-185,08/02/2026,Temperatura de refrigerante alta,36,no,no,B
+H-00259,T-106,06/02/2026,TEMP REFRIGERANTE ALTA,42,sí,no,A
+H-00260,T-132,07/02/2026,Temperatura de refrigerante alta,24,sí,no,A
+H-00261,T-127,46058,Presión de aceite baja,35,sí,no,A
+H-00262,T-119,08/02/2026,Presión de aceite baja,60,sí,no,A
+H-00263,T-134,02/02/2026,Presión de aceite baja,26,sí,no,A
+H-00264,T-235,08/02/2026,VOLTAJE BATERIA BAJO,59,sí,no,B
+H-00265,T-161,05/02/2026,Voltaje de batería bajo,51,no,no,A
+H-00266,T-123,06/02/2026,Voltaje de batería bajo,22,no,sí,A
+H-00267,T-234,07/02/2026,Voltaje de batería bajo,50,no,no,B
+H-00268,T-108,05/02/2026,VOLTAJE BATERIA BAJO,66,no,no,A
+H-00269,T-182,06/02/2026,Voltaje de batería bajo,12,no,no,B
+H-00270,T-194,04/02/2026,Voltaje de batería bajo,16,sí,no,B
+H-00271,T-227,02/02/2026,Voltaje de batería bajo,,sí,no,B
+H-00272,T-158,02/02/2026,Voltaje de batería bajo,52,no,no,A
+H-00273,T-190,2026-02-05,Voltaje de batería bajo,6,no,no,B
+H-00274,T-162,07/02/2026,Voltaje de batería bajo,32,no,no,A
+H-00275,T-238,08/02/2026,Voltaje de batería bajo,9,no,no,B
+H-00276,T-212,07/02/2026,Voltaje de batería bajo,16,no,no,B
+H-00277,T-197,05/02/2026,Filtro de partículas saturado,34,sí,no,B
+H-00278,T-208,04/02/2026,Filtro de partículas saturado,16,sí,no,B
+H-00279,T-108,04/02/2026,FILTRO PARTICULAS SATURADO,23,sí,no,A
+H-00280,T-226,08/02/2026,Filtro de partículas saturado,,no,sí,B
+H-00281,T-191,05/02/2026,Filtro de partículas saturado,64,sí,no,B
+H-00282,T-115,05/02/2026,Filtro de partículas saturado,34,no,no,A
+H-00283,T-159,05/02/2026,Filtro de partículas saturado,15,sí,no,A
+H-00284,T-180,2026-02-02,Sensor ABS intermitente,6,sí,no,B
+H-00285,T-203,08/02/2026,Sensor ABS intermitente,14,no,no,B
+H-00286,T-183,03/02/2026,Sensor ABS intermitente,,no,no,B
+H-00287,T-175,02/02/2026,Sensor ABS intermitente,21,no,no,B
+H-00288,T-225,06/02/2026,Sensor ABS intermitente,21,no,no,B
+H-00289,T-209,02/02/2026,Sensor ABS intermitente,21,no,no,B
+H-00290,T-199,2026-02-04,Sensor ABS intermitente,23,no,no,B
+H-00291,T-119,07/02/2026,Sensor ABS intermitente,25,no,no,A
+H-00292,T-230,03/02/2026,Sensor ABS intermitente,3,no,no,B
+H-00293,T-123,02/02/2026,Sensor ABS intermitente,69,sí,no,A
+H-00294,T-189,06/02/2026,Sensor ABS intermitente,24,sí,no,B
+H-00295,T-198,05/02/2026,Sensor ABS intermitente,5,no,no,B
+H-00296,T-191,2026-02-06,Sensor ABS intermitente,20,sí,no,B
+H-00297,T-187,04/02/2026,Desgaste de balatas,86,sí,sí,B
+H-00298,T-191,04/02/2026,Brake pad wear,78,sí,no,B
+H-00299,T-210,07/02/2026,Desgaste de balatas,67,sí,no,B
+H-00300,T-185,07/02/2026,Falla de comunicación CAN,24,no,no,B
+H-00301,T-160,07/02/2026,Falla de comunicación CAN,,no,no,A
+H-00302,T-191,07/02/2026,Falla de comunicación CAN,22,sí,no,B
+H-00303,T-224,03/02/2026,Falla de comunicación CAN,3,sí,no,B
+H-00304,T-110,04/02/2026,Falla de comunicación CAN,3,no,no,A
+H-00305,T-212,03/02/2026,Falla de comunicación CAN,8,no,no,B
+H-00306,T-199,05/02/2026,Falla de comunicación CAN,24,no,no,B
+H-00307,T-145,05/02/2026,Falla de comunicación CAN,21,no,sí,A
+H-00308,T-238,06/02/2026,Falla de comunicación CAN,3,no,no,B
+H-00309,T-169,05/02/2026,Falla de comunicación CAN,5,no,no,A
+H-00310,T-190,02/02/2026,Falla de comunicación CAN,3,no,no,B
+H-00311,T-180,04/02/2026,Falla de comunicación CAN,7,sí,no,B
+H-00312,T-236,10/02/2026,Presión de aire baja,60,sí,sí,B
+H-00313,T-240,15/02/2026,PRESION DE AIRE BAJA,63,sí,no,B
+H-00314,T-126,12/02/2026,Presión de aire baja,75,sí,no,A
+H-00315,T-237,12/02/2026,Presión de aire baja,74,sí,no,B
+H-00316,T-140,11/02/2026,Presión de aire baja,17,sí,no,A
+H-00317,T-192,15/02/2026,Presión de aire baja,28,sí,no,B
+H-00318,T-112,2026-02-15,Presión de aire baja,81,sí,no,A
+H-00319,T-216,12/02/2026,Presión de aire baja,,sí,sí,B
+H-00320,T-194,14/02/2026,Presión de aire baja,38,sí,no,B
+H-00321,T-176,11/02/2026,Presión de aire baja,32,sí,no,B
+H-00322,T-207,2026-02-13,Presión de aire baja,64,sí,no,B
+H-00323,T-117,12/02/2026,Presión de aire baja,39,sí,sí,A
+H-00324,T-169,13/02/2026,Presión de aire baja,17,sí,no,A
+H-00325,T-223,11/02/2026,Temperatura de refrigerante alta,21,no,no,B
+H-00326,T-103,11/02/2026,Temperatura de refrigerante alta,54,no,no,A
+H-00327,T-182,12/02/2026,Temperatura de refrigerante alta,37,sí,no,B
+H-00328,T-162,09/02/2026,Temperatura de refrigerante alta,26,no,sí,A
+H-00329,T-106,31/02/2026,Temperatura de refrigerante alta,15,sí,no,A
+H-00330,T-158,11/02/2026,Temperatura de refrigerante alta,53,sí,no,A
+H-00331,T-237,15/02/2026,Presión de aceite baja,87,sí,sí,B
+H-00332,T-207,15/02/2026,Voltaje de batería bajo,33,no,no,B
+H-00333,T-237,11/02/2026,Voltaje de batería bajo,13,no,no,B
+H-00334,T-101,14/02/2026,Voltaje de batería bajo,20,no,no,A
+H-00335,T-197,11/02/2026,Voltaje de batería bajo,6,no,no,B
+H-00336,T-195,13/02/2026,Voltaje de batería bajo,33,no,no,B
+H-00337,T-203,09/02/2026,Voltaje de batería bajo,10,sí,no,B
+H-00338,T-237,10/02/2026,Voltaje de batería bajo,9,no,no,B
+H-00339,T-147,09/02/2026,Voltaje de batería bajo,32,sí,sí,A
+H-00340,T-235,12/02/2026,Voltaje de batería bajo,7,no,no,B
+H-00341,T-198,13/02/2026,Voltaje de batería bajo,,no,no,B
+H-00342,T-222,09/02/2026,Voltaje de batería bajo,,sí,no,B
+H-00343,T-184,14/02/2026,Voltaje de batería bajo,15,no,no,B
+H-00344,T-174,10/02/2026,VOLTAJE BATERIA BAJO,25,no,no,B
+H-00345,T-230,13/02/2026,Filtro de partículas saturado,42,no,no,B
+H-00346,T-138,10/02/2026,Filtro de partículas saturado,26,no,no,A
+H-00347,T-227,09/02/2026,Filtro de partículas saturado,21,sí,no,B
+H-00348,T-183,13/02/2026,Filtro de partículas saturado,16,sí,no,B
+H-00349,T-127,15/02/2026,FILTRO PARTICULAS SATURADO,81,sí,sí,A
+H-00350,T-121,12/02/2026,Sensor ABS intermitente,44,sí,no,A
+H-00351,T-144,09/02/2026,Sensor ABS intermitente,14,no,no,A
+H-00352,T-174,15/02/2026,Sensor ABS intermitente,19,sí,no,B
+H-00353,T-103,15/02/2026,Sensor ABS intermitente,24,sí,no,A
+H-00354,T-223,14/02/2026,ABS sensor intermittent,29,sí,no,B
+H-00355,T-151,10/02/2026,Sensor ABS intermitente,3,sí,no,A
+H-00356,T-115,14/02/2026,Sensor ABS intermitente,,no,no,A
+H-00357,T-108,12/02/2026,ABS intermitente,49,no,sí,A
+H-00358,T-209,09/02/2026,Sensor ABS intermitente,31,no,no,B
+H-00359,T-151,15/02/2026,Sensor ABS intermitente,27,sí,no,A
+H-00360,T-196,09/02/2026,Sensor ABS intermitente,44,no,no,B
+H-00361,T-190,13/02/2026,Sensor ABS intermitente,19,sí,no,B
+H-00362,T-103,12/02/2026,Sensor ABS intermitente,36,sí,no,A
+H-00363,T-228,10/02/2026,Sensor ABS intermitente,5,no,no,B
+H-00364,T-122,10/02/2026,Sensor ABS intermitente,30,sí,no,A
+H-00365,T-180,14/02/2026,Sensor ABS intermitente,27,sí,no,B
+H-00366,T-172,10/02/2026,Sensor ABS intermitente,6,no,no,B
+H-00367,T-197,09/02/2026,Sensor ABS intermitente,28,no,no,B
+H-00368,,09/02/2026,Sensor ABS intermitente,30,no,no,A
+H-00369,T-192,14/02/2026,Sensor ABS intermitente,25,no,sí,B
+H-00370,T-205,15/02/2026,Sensor ABS intermitente,52,sí,no,B
+H-00371,T-122,11/02/2026,Sensor ABS intermitente,49,no,no,A
+H-00372,T-114,10/02/2026,Sensor ABS intermitente,,sí,no,A
+H-00373,T-139,14/02/2026,Sensor ABS intermitente,20,no,no,A
+H-00374,T-116,11/02/2026,Sensor ABS intermitente,15,sí,no,A
+H-00375,T-214,11/02/2026,Desgaste de balatas,,sí,no,B
+H-00376,T-161,13/02/2026,Desgaste de balatas,60,sí,no,A
+H-00377,T-224,09/02/2026,Desgaste de balatas,80,sí,sí,B
+H-00378,T-156,09/02/2026,DESGASTE BALATAS,2,sí,no,A
+H-00379,T-218,14/02/2026,Desgaste de balatas,70,sí,no,B
+H-00380,T-101,09/02/2026,Falla de comunicación CAN,13,sí,no,A
+H-00381,T-202,13/02/2026,Falla de comunicación CAN,10,no,no,B
+H-00382,T-117,14/02/2026,Falla de comunicación CAN,6,no,no,A
+H-00383,T-108,13/02/2026,Falla de comunicación CAN,6,no,no,A
+H-00384,T-125,11/02/2026,Falla de comunicación CAN,11,sí,no,A
+H-00385,T-176,11/02/2026,Falla de comunicación CAN,14,no,no,B
+H-00386,T-139,14/02/2026,Falla de comunicación CAN,26,sí,no,A
+H-00387,T-189,16/02/2026,Presión de aire baja,,sí,no,B
+H-00388,,22/02/2026,Presión de aire baja,52,sí,no,A
+H-00389,T-215,19/02/2026,Low air pressure,69,sí,no,B
+H-00390,T-163,18/02/2026,Pres. aire baja,28,sí,no,A
+H-00391,T-183,21/02/2026,PRESION DE AIRE BAJA,66,sí,no,B
+H-00392,T-179,22/02/2026,Presión de aire baja,27,sí,no,B
+H-00393,T-226,17/02/2026,Presión de aire baja,42,sí,no,B
+H-00394,T-185,20/02/2026,Presión de aire baja,84,sí,sí,B
+H-00395,T-139,18/02/2026,Presión de aire baja,50,sí,no,A
+H-00396,T-218,22/02/2026,Presión de aire baja,73,sí,sí,B
+H-00397,T-111,20/02/2026,Temperatura de refrigerante alta,32,no,no,A
+H-00398,T-113,16/02/2026,Temperatura de refrigerante alta,8,no,no,A
+H-00399,T-227,21/02/2026,Temperatura de refrigerante alta,13,no,no,B
+H-00400,T-124,19/02/2026,Coolant temp high,50,no,no,A
+H-00401,T-203,19/02/2026,Temperatura de refrigerante alta,55,no,no,B
+H-00402,T-167,22/02/2026,Presión de aceite baja,50,sí,no,A
+H-00403,T-114,19/02/2026,Presión de aceite baja,57,sí,no,A
+H-00404,T-233,17/02/2026,Presión de aceite baja,78,sí,sí,B
+H-00405,T-117,19/02/2026,Voltaje de batería bajo,27,no,no,A
+H-00406,T-174,22/02/2026,Voltaje de batería bajo,15,no,no,B
+H-00407,T-158,20/02/2026,Voltaje de batería bajo,13,sí,no,A
+H-00408,T-166,17/02/2026,Voltaje de batería bajo,35,no,no,A
+H-00409,T-165,19/02/2026,Voltaje de batería bajo,,no,no,A
+H-00410,T-224,21/02/2026,Voltaje de batería bajo,17,no,no,B
+H-00411,T-169,20/02/2026,Voltaje de batería bajo,8,no,no,A
+H-00412,T-163,2026-02-19,Voltaje de batería bajo,21,no,no,A
+H-00413,T-234,19/02/2026,Voltaje de batería bajo,40,no,no,B
+H-00414,T-106,21/02/2026,Voltaje de batería bajo,4,sí,no,A
+H-00415,T-107,22/02/2026,Voltaje de batería bajo,39,no,no,A
+H-00416,T-199,18/02/2026,Voltaje de batería bajo,44,no,no,B
+H-00417,T-233,21/02/2026,Voltaje de batería bajo,51,no,no,B
+H-00418,T-172,21/02/2026,Voltaje de batería bajo,50,no,no,B
+H-00419,T-107,16/02/2026,Low battery voltage,2,sí,no,A
+H-00420,T-146,21/02/2026,Filtro de partículas saturado,15,no,no,A
+H-00421,T-179,16/02/2026,Filtro de partículas saturado,45,no,no,B
+H-00422,T-122,16/02/2026,Filtro de partículas saturado,50,no,no,A
+H-00423,T-176,22/02/2026,FILTRO PARTICULAS SATURADO,49,no,no,B
+H-00424,T-226,16/02/2026,Filtro de partículas saturado,26,sí,sí,B
+H-00425,T-200,20/02/2026,Filtro de partículas saturado,75,no,no,B
+H-00426,T-151,18/02/2026,Filtro de partículas saturado,17,sí,no,A
+H-00427,T-235,18/02/2026,Filtro de partículas saturado,15,sí,no,B
+H-00428,T-103,18/02/2026,Sensor ABS intermitente,35,sí,no,A
+H-00429,T-223,17/02/2026,Sensor ABS intermitente,34,sí,no,B
+H-00430,T-172,18/02/2026,Sensor ABS intermitente,9,no,no,B
+H-00431,T-167,17/02/2026,Sensor ABS intermitente,17,sí,no,A
+H-00432,T-221,19/02/2026,Sensor ABS intermitente,,sí,no,B
+H-00433,T-156,21/02/2026,ABS sensor intermittent,8,no,no,A
+H-00434,T-211,17/02/2026,ABS sensor intermittent,4,no,no,B
+H-00435,T-102,16/02/2026,Sensor ABS intermitente,53,no,no,A
+H-00436,T-105,21/02/2026,Sensor ABS intermitente,3,no,no,A
+H-00437,T-174,20/02/2026,Sensor ABS intermitente,3,no,no,B
+H-00438,T-155,19/02/2026,Sensor ABS intermitente,,no,no,A
+H-00439,T-214,20/02/2026,Desgaste de balatas,82,sí,no,B
+H-00440,T-216,22/02/2026,DESGASTE BALATAS,48,sí,no,B
+H-00441,T-214,16/02/2026,Desgaste de balatas,48,sí,no,B
+H-00442,T-103,16/02/2026,Falla de comunicación CAN,30,no,no,A
+H-00443,T-103,17/02/2026,Falla de comunicación CAN,8,no,no,A
+H-00444,T-159,18/02/2026,Falla de comunicación CAN,7,no,no,A
+H-00445,T-216,19/02/2026,Falla de comunicación CAN,38,sí,no,B
+H-00446,T-207,20/02/2026,Falla de comunicación CAN,16,no,no,B
+H-00447,T-227,20/02/2026,Falla de comunicación CAN,33,no,no,B
+H-00448,T-232,2026-02-19,Falla de comunicación CAN,35,no,no,B
+H-00449,T-175,22/02/2026,Falla de comunicación CAN,1,sí,no,B
+H-00450,T-217,21/02/2026,Falla de comunicación CAN,15,no,no,B
+H-00451,T-207,17/02/2026,Falla de comunicación CAN,23,sí,no,B
+H-00452,T-107,20/02/2026,Falla de comunicación CAN,3,no,no,A
+H-00453,T-180,2026-02-17,Falla de comunicación CAN,5,no,no,B
+H-00454,T-159,19/02/2026,Falla de comunicación CAN,15,sí,no,A
+H-00455,T-189,2026-02-23,Presión de aire baja,34,sí,sí,B
+H-00456,T-165,23/02/2026,Presión de aire baja,13,sí,no,A
+H-00457,T-206,28/02/2026,Presión de aire baja,18,sí,no,B
+H-00458,T-142,01/03/2026,Presión de aire baja,52,sí,no,A
+H-00459,T-158,24/02/2026,Temperatura de refrigerante alta,14,sí,no,A
+H-00460,T-165,25/02/2026,Temperatura de refrigerante alta,65,no,sí,A
+H-00461,T-229,2026-02-27,Temperatura de refrigerante alta,40,sí,sí,B
+H-00462,T-153,27/02/2026,Temperatura de refrigerante alta,86,no,no,A
+H-00463,T-223,24/02/2026,PRESION ACEITE BAJA,24,sí,no,B
+H-00464,T-122,23/02/2026,Presión de aceite baja,64,sí,no,A
+H-00465,T-129,28/02/2026,Presión de aceite baja,41,sí,no,A
+H-00466,T-184,27/02/2026,Voltaje de batería bajo,16,no,no,B
+H-00467,T-199,26/02/2026,Voltaje de batería bajo,30,sí,tal vez,B
+H-00468,T-197,01/03/2026,Voltaje de batería bajo,19,no,no,B
+H-00469,T-222,27/02/2026,Voltaje de batería bajo,14,sí,no,B
+H-00470,T-112,27/02/2026,Voltaje de batería bajo,61,no,no,A
+H-00471,T-142,26/02/2026,Voltaje de batería bajo,11,no,no,A
+H-00472,T-136,25/02/2026,Voltaje de batería bajo,23,no,no,A
+H-00473,T-105,26/02/2026,Voltaje de batería bajo,,sí,no,A
+H-00474,T-153,25/02/2026,Voltaje de batería bajo,4,sí,no,A
+H-00475,T-231,27/02/2026,Voltaje de batería bajo,,sí,no,B
+H-00476,T-236,27/02/2026,Filtro de partículas saturado,47,no,no,B
+H-00477,T-203,23/02/2026,Filtro de partículas saturado,,no,no,B
+H-00478,T-126,23/02/2026,Filtro de partículas saturado,20,no,no,A
+H-00479,T-109,2026-02-27,Filtro de partículas saturado,30,no,no,A
+H-00480,T-139,27/02/2026,Filtro de partículas saturado,31,no,no,A
+H-00481,T-234,2026-02-25,Filtro de partículas saturado,11,no,no,B
+H-00482,T-148,01/03/2026,Sensor ABS intermitente,18,no,no,A
+H-00483,T-204,25/02/2026,Sensor ABS intermitente,9,sí,no,B
+H-00484,T-147,26/02/2026,Sensor ABS intermitente,18,no,no,A
+H-00485,T-179,23/02/2026,Sensor ABS intermitente,31,no,no,B
+H-00486,T-174,01/03/2026,Sensor ABS intermitente,28,no,no,B
+H-00487,T-113,27/02/2026,Sensor ABS intermitente,32,no,no,A
+H-00488,T-214,24/02/2026,Sensor ABS intermitente,13,no,no,B
+H-00489,T-109,24/02/2026,Sensor ABS intermitente,71,no,no,A
+H-00490,T-160,27/02/2026,Sensor ABS intermitente,26,sí,no,A
+H-00491,T-152,28/02/2026,Sensor ABS intermitente,,no,no,A
+H-00492,T-220,23/02/2026,Sensor ABS intermitente,55,no,no,B
+H-00493,T-223,23/02/2026,Sensor ABS intermitente,53,no,no,B
+H-00494,T-174,24/02/2026,Sensor ABS intermitente,11,no,no,B
+H-00495,T-224,01/03/2026,ABS sensor intermittent,26,no,no,B
+H-00496,T-131,24/02/2026,Sensor ABS intermitente,54,no,sí,A
+H-00497,T-123,25/02/2026,Sensor ABS intermitente,25,sí,no,A
+H-00498,T-169,26/02/2026,Sensor ABS intermitente,,no,no,A
+H-00499,T-145,01/03/2026,Sensor ABS intermitente,12,no,no,A
+H-00500,T-178,27/02/2026,Desgaste de balatas,97,sí,sí,B
+H-00501,T-116,01/03/2026,Brake pad wear,66,sí,no,A
+H-00502,T-132,28/02/2026,Desgaste de balatas,92,sí,sí,A
+H-00503,T-182,26/02/2026,Desgaste de balatas,45,sí,no,B
+H-00504,T-143,24/02/2026,Falla de comunicación CAN,18,sí,no,A
+H-00505,T-169,01/03/2026,Falla de comunicación CAN,38,no,no,A
+H-00506,T-123,23/02/2026,Falla de comunicación CAN,,no,no,A
+H-00507,T-171,23/02/2026,Falla de comunicación CAN,4,no,no,B
+H-00508,T-126,23/02/2026,Falla de comunicación CAN,5,no,no,A
+H-00509,T-197,24/02/2026,Falla de comunicación CAN,7,no,no,B
+H-00510,T-236,25/02/2026,Falla de comunicación CAN,,no,no,B
+H-00511,T-219,23/02/2026,Falla de comunicación CAN,,no,no,B
+H-00512,T-145,28/02/2026,Falla de comunicación CAN,28,no,no,A
+H-00513,T-172,23/02/2026,Falla de comunicación CAN,14,no,no,B
+H-00514,T-146,28/02/2026,Falla de comunicación CAN,7,no,no,A
+H-00515,T-150,27/02/2026,Falla de comunicación CAN,25,no,no,A
+H-00516,T-121,28/02/2026,Falla de comunicación CAN,12,no,no,A
+H-00517,T-238,27/02/2026,Falla de comunicación CAN,15,no,no,B
+H-00518,T-202,27/02/2026,Falla de comunicación CAN,20,no,no,B
+H-00519,T-186,28/02/2026,Falla de comunicación CAN,,no,no,B
+H-00520,T-212,02/03/2026,Presión de aire baja,55,sí,sí,B
+H-00521,T-213,04/03/2026,Pres. aire baja,6,sí,no,B
+H-00522,T-190,03/03/2026,Presión de aire baja,48,sí,no,B
+H-00523,T-215,04/03/2026,Low air pressure,56,sí,no,B
+H-00524,T-103,02/03/2026,Presión de aire baja,3,sí,no,A
+H-00525,T-134,06/03/2026,Presión de aire baja,44,sí,sí,A
+H-00526,T-179,04/03/2026,Presión de aire baja,18,sí,no,B
+H-00527,T-120,02/03/2026,Pres. aire baja,24,sí,no,A
+H-00528,T-187,06/03/2026,Low air pressure,69,sí,no,B
+H-00529,T-133,03/03/2026,Presión de aire baja,65,sí,no,A
+H-00530,T-190,05/03/2026,Presión de aire baja,51,sí,no,B
+H-00531,T-210,08/03/2026,Presión de aire baja,34,sí,no,B
+H-00532,T-123,04/03/2026,Temperatura de refrigerante alta,43,no,no,A
+H-00533,T-238,06/03/2026,Temperatura de refrigerante alta,30,sí,no,B
+H-00534,T-122,02/03/2026,Temperatura de refrigerante alta,37,no,no,A
+H-00535,T-146,08/03/2026,Temperatura de refrigerante alta,22,no,no,A
+H-00536,T-199,05/03/2026,Temperatura de refrigerante alta,33,sí,no,B
+H-00537,T-225,08/03/2026,Temperatura de refrigerante alta,26,sí,no,B
+H-00538,T-177,07/03/2026,Presión de aceite baja,,sí,no,B
+H-00539,T-184,07/03/2026,Presión de aceite baja,21,sí,no,B
+H-00540,T-240,04/03/2026,Voltaje de batería bajo,27,no,no,B
+H-00541,T-163,02/03/2026,Voltaje de batería bajo,72,no,no,A
+H-00542,T-194,06/03/2026,Voltaje de batería bajo,61,no,sí,B
+H-00543,T-103,04/03/2026,Voltaje de batería bajo,58,no,no,A
+H-00544,T-199,2026-03-04,Voltaje de batería bajo,31,no,sí,B
+H-00545,T-140,08/03/2026,Voltaje de batería bajo,10,no,no,A
+H-00546,T-200,02/03/2026,Voltaje de batería bajo,49,sí,no,B
+H-00547,T-220,03/03/2026,Voltaje de batería bajo,19,no,no,B
+H-00548,T-221,03/03/2026,Voltaje de batería bajo,54,sí,sí,B
+H-00549,T-194,02/03/2026,Voltaje de batería bajo,,no,no,B
+H-00550,T-198,02/03/2026,Voltaje de batería bajo,13,no,no,B
+H-00551,T-213,06/03/2026,Voltaje de batería bajo,8,no,no,B
+H-00552,T-214,08/03/2026,Voltaje de batería bajo,13,sí,no,B
+H-00553,T-228,02/03/2026,Voltaje de batería bajo,21,no,no,B
+H-00554,T-195,03/03/2026,Voltaje de batería bajo,28,no,no,B
+H-00555,T-216,02/03/2026,Voltaje de batería bajo,28,sí,no,B
+H-00556,T-187,02/03/2026,Voltaje de batería bajo,12,no,no,B
+H-00557,T-105,02/03/2026,Filtro de partículas saturado,40,sí,no,A
+H-00558,T-203,07/03/2026,DPF saturado,24,no,no,B
+H-00559,T-122,04/03/2026,Filtro de partículas saturado,45,no,no,A
+H-00560,T-144,2026-03-06,Filtro de partículas saturado,30,sí,no,A
+H-00561,T-207,03/03/2026,Filtro de partículas saturado,55,sí,sí,B
+H-00562,T-101,06/03/2026,Filtro de partículas saturado,22,no,no,A
+H-00563,T-183,04/03/2026,Filtro de partículas saturado,59,no,no,B
+H-00564,T-205,04/03/2026,Filtro de partículas saturado,12,no,no,B
+H-00565,T-122,03/03/2026,Filtro de partículas saturado,30,no,no,A
+H-00566,T-198,07/03/2026,Filtro de partículas saturado,18,no,no,B
+H-00567,T-106,07/03/2026,Filtro de partículas saturado,12,no,no,A
+H-00568,T-124,06/03/2026,Sensor ABS intermitente,12,no,no,A
+H-00569,T-204,03/03/2026,Sensor ABS intermitente,38,no,no,B
+H-00570,T-192,08/03/2026,Sensor ABS intermitente,20,no,no,B
+H-00571,T-121,03/03/2026,Sensor ABS intermitente,8,sí,no,A
+H-00572,T-139,05/03/2026,Sensor ABS intermitente,11,no,no,A
+H-00573,T-175,2026-03-06,Sensor ABS intermitente,13,no,no,B
+H-00574,T-141,2026-03-08,Sensor ABS intermitente,19,no,no,A
+H-00575,T-231,07/03/2026,Sensor ABS intermitente,42,no,no,B
+H-00576,T-231,02/03/2026,Sensor ABS intermitente,16,no,no,B
+H-00577,T-207,03/03/2026,ABS intermitente,17,no,no,B
+H-00578,T-213,06/03/2026,ABS intermitente,24,no,no,B
+H-00579,T-161,06/03/2026,Desgaste de balatas,60,sí,sí,A
+H-00580,T-166,02/03/2026,Desgaste de balatas,79,sí,no,A
+H-00581,T-110,04/03/2026,Desgaste de balatas,82,sí,sí,A
+H-00582,T-209,02/03/2026,Desgaste de balatas,28,sí,no,B
+H-00583,T-187,02/03/2026,Falla de comunicación CAN,12,no,no,B
+H-00584,T-160,04/03/2026,Falla de comunicación CAN,7,sí,no,A
+H-00585,T-112,04/03/2026,Falla de comunicación CAN,50,no,no,A
+H-00586,T-167,02/03/2026,Falla de comunicación CAN,4,no,no,A
+H-00587,T-182,07/03/2026,Falla de comunicación CAN,24,no,no,B
+H-00588,T-232,03/03/2026,Falla de comunicación CAN,21,sí,no,B
+H-00589,T-108,04/03/2026,Falla de comunicación CAN,16,sí,no,A
+H-00590,T-168,04/03/2026,Falla de comunicación CAN,12,no,no,A
+H-00591,T-190,08/03/2026,Falla de comunicación CAN,15,no,no,B
+H-00592,T-168,15/03/2026,Presión de aire baja,25,sí,sí,A
+H-00593,T-223,13/03/2026,Presión de aire baja,24,sí,sí,B
+H-00594,T-129,11/03/2026,Presión de aire baja,60,sí,no,A
+H-00595,T-217,10/03/2026,Presión de aire baja,48,sí,no,B
+H-00596,T-177,09/03/2026,Presión de aire baja,52,sí,tal vez,B
+H-00597,T-231,10/03/2026,Presión de aire baja,16,sí,no,B
+H-00598,T-145,09/03/2026,Presión de aire baja,45,sí,no,A
+H-00599,T-186,09/03/2026,Presión de aire baja,50,sí,no,B
+H-00600,T-189,15/03/2026,Low air pressure,36,sí,sí,B
+H-00601,T-183,15/03/2026,Presión de aire baja,15,sí,no,B
+H-00602,T-147,11/03/2026,Presión de aire baja,63,sí,no,A
+H-00603,T-222,14/03/2026,Temperatura de refrigerante alta,8,no,no,B
+H-00604,T-191,09/03/2026,Temperatura de refrigerante alta,63,no,no,B
+H-00605,T-115,14/03/2026,Temperatura de refrigerante alta,32,no,no,A
+H-00606,T-120,12/03/2026,Temperatura de refrigerante alta,28,no,no,A
+H-00607,T-165,13/03/2026,Presión de aceite baja,26,sí,no,A
+H-00608,T-172,10/03/2026,Voltaje de batería bajo,25,sí,no,B
+H-00609,T-161,12/03/2026,Voltaje de batería bajo,49,no,no,A
+H-00610,T-156,12/03/2026,Voltaje de batería bajo,68,no,no,A
+H-00611,T-194,09/03/2026,Voltaje de batería bajo,15,sí,no,B
+H-00612,T-197,15/03/2026,Voltaje de batería bajo,21,sí,no,B
+H-00613,T-122,09/03/2026,Voltaje de batería bajo,5,no,no,A
+H-00614,T-182,14/03/2026,Voltaje de batería bajo,12,no,no,B
+H-00615,T-227,15/03/2026,Voltaje de batería bajo,11,no,no,B
+H-00616,T-169,11/03/2026,Voltaje de batería bajo,55,sí,no,A
+H-00617,T-221,12/03/2026,Filtro de partículas saturado,32,no,no,B
+H-00618,T-153,12/03/2026,Filtro de partículas saturado,55,no,no,A
+H-00619,T-143,13/03/2026,Filtro de partículas saturado,23,no,no,A
+H-00620,T-237,14/03/2026,Filtro de partículas saturado,46,sí,no,B
+H-00621,T-228,09/03/2026,Filtro de partículas saturado,33,no,no,B
+H-00622,T-228,12/03/2026,Filtro de partículas saturado,37,sí,sí,B
+H-00623,T-178,13/03/2026,Filtro de partículas saturado,60,no,no,B
+H-00624,T-129,09/03/2026,Filtro de partículas saturado,41,no,no,A
+H-00625,T-113,11/03/2026,FILTRO PARTICULAS SATURADO,50,no,no,A
+H-00626,T-209,09/03/2026,Filtro de partículas saturado,7,sí,no,B
+H-00627,T-172,09/03/2026,Sensor ABS intermitente,2,no,no,B
+H-00628,T-152,13/03/2026,Sensor ABS intermitente,,no,sí,A
+H-00629,T-240,10/03/2026,Sensor ABS intermitente,,no,no,B
+H-00630,T-165,2026-03-15,Sensor ABS intermitente,6,sí,no,A
+H-00631,T-107,15/03/2026,Sensor ABS intermitente,,sí,no,A
+H-00632,T-187,14/03/2026,Sensor ABS intermitente,5,no,no,B
+H-00633,T-181,13/03/2026,Sensor ABS intermitente,,no,no,B
+H-00634,T-115,09/03/2026,Sensor ABS intermitente,20,no,no,A
+H-00635,T-224,13/03/2026,Sensor ABS intermitente,26,sí,no,B
+H-00636,T-145,10/03/2026,Sensor ABS intermitente,35,no,no,A
+H-00637,T-198,11/03/2026,Desgaste de balatas,57,sí,sí,B
+H-00638,T-161,12/03/2026,Desgaste de balatas,51,sí,sí,A
+H-00639,T-123,14/03/2026,Desgaste de balatas,38,sí,no,A
+H-00640,T-118,15/03/2026,Desgaste de balatas,43,sí,no,A
+H-00641,T-155,15/03/2026,Falla de comunicación CAN,42,no,no,A
+H-00642,T-157,15/03/2026,Falla de comunicación CAN,37,sí,no,A
+H-00643,T-132,10/03/2026,Falla de comunicación CAN,3,no,no,A
+H-00644,T-163,09/03/2026,CAN communication fault,6,no,no,A
+H-00645,T-168,13/03/2026,Falla de comunicación CAN,18,no,no,A
+H-00646,T-232,11/03/2026,Falla de comunicación CAN,64,no,no,B
+H-00647,T-178,14/03/2026,Falla de comunicación CAN,4,no,no,B
+H-00648,T-198,11/03/2026,Falla de comunicación CAN,45,no,no,B
+H-00649,T-225,13/03/2026,Falla de comunicación CAN,3,no,no,B
+H-00650,T-236,2026-03-11,Falla de comunicación CAN,13,no,no,B
+H-00651,T-221,20/03/2026,Presión de aire baja,0.38,sí,sí,B
+H-00652,T-149,20/03/2026,Presión de aire baja,47,sí,no,A
+H-00653,T-141,19/03/2026,Presión de aire baja,61,sí,no,A
+H-00654,T-168,18/03/2026,Presión de aire baja,61,sí,sí,A
+H-00655,T-146,22/03/2026,Presión de aire baja,39,sí,no,A
+H-00656,T-121,20/03/2026,PRESION DE AIRE BAJA,76,sí,no,A
+H-00657,T-146,21/03/2026,Presión de aire baja,62,sí,sí,A
+H-00658,T-192,22/03/2026,Presión de aire baja,0.5,sí,no,B
+H-00659,T-114,20/03/2026,Presión de aire baja,30,sí,no,A
+H-00660,T-142,19/03/2026,Presión de aire baja,21,sí,no,A
+H-00661,T-186,17/03/2026,Presión de aire baja,0.55,sí,sí,B
+H-00662,T-164,16/03/2026,Presión de aire baja,22,sí,no,A
+H-00663,T-147,22/03/2026,Presión de aire baja,56,sí,no,A
+H-00664,T-166,20/03/2026,Temperatura de refrigerante alta,67,no,sí,A
+H-00665,T-101,17/03/2026,Temperatura de refrigerante alta,61,no,sí,A
+H-00666,T-195,19/03/2026,Temperatura de refrigerante alta,0.14,no,no,B
+H-00667,T-111,16/03/2026,Temperatura de refrigerante alta,83,no,sí,A
+H-00668,T-157,16/03/2026,Temperatura de refrigerante alta,44,no,no,A
+H-00669,T-237,18/03/2026,Temperatura de refrigerante alta,0.24,no,no,B
+H-00670,T-132,18/03/2026,Presión de aceite baja,26,sí,no,A
+H-00671,T-217,21/03/2026,Presión de aceite baja,,sí,sí,B
+H-00672,T-121,22/03/2026,Presión de aceite baja,38,sí,no,A
+H-00673,T-171,17/03/2026,Voltaje de batería bajo,0.22,no,no,B
+H-00674,T-235,18/03/2026,Voltaje de batería bajo,,no,no,B
+H-00675,T-236,18/03/2026,Voltaje de batería bajo,0.16,sí,no,B
+H-00676,T-115,20/03/2026,Low battery voltage,28,no,no,A
+H-00677,T-183,17/03/2026,Voltaje de batería bajo,0.07,no,no,B
+H-00678,T-216,18/03/2026,Voltaje de batería bajo,0.05,no,no,B
+H-00679,T-168,16/03/2026,Voltaje de batería bajo,6,no,no,A
+H-00680,T-126,19/03/2026,Low battery voltage,25,sí,no,A
+H-00681,T-130,22/03/2026,Voltaje de batería bajo,12,sí,no,A
+H-00682,T-178,2026-03-21,Filtro de partículas saturado,0.63,no,sí,B
+H-00683,T-160,2026-03-18,Filtro de partículas saturado,19,sí,no,A
+H-00684,T-162,16/03/2026,FILTRO PARTICULAS SATURADO,12,no,no,A
+H-00685,T-202,20/03/2026,Filtro de partículas saturado,0.17,no,no,B
+H-00686,T-165,22/03/2026,Filtro de partículas saturado,30,no,no,A
+H-00687,T-131,19/03/2026,Filtro de partículas saturado,24,no,no,A
+H-00688,T-231,21/03/2026,Filtro de partículas saturado,0.09,sí,no,B
+H-00689,T-237,21/03/2026,Filtro de partículas saturado,0.14,sí,no,B
+H-00690,T-196,17/03/2026,Filtro de partículas saturado,0.47,no,no,B
+H-00691,T-137,16/03/2026,Filtro de partículas saturado,18,no,no,A
+H-00692,T-110,20/03/2026,Sensor ABS intermitente,12,no,no,A
+H-00693,T-142,21/03/2026,Sensor ABS intermitente,18,no,no,A
+H-00694,T-145,18/03/2026,ABS intermitente,23,no,no,A
+H-00695,T-221,22/03/2026,Sensor ABS intermitente,0.51,no,sí,B
+H-00696,T-222,18/03/2026,Sensor ABS intermitente,0.23,no,no,B
+H-00697,T-207,17/03/2026,Sensor ABS intermitente,0.46,no,no,B
+H-00698,T-174,20/03/2026,Sensor ABS intermitente,0.07,sí,no,B
+H-00699,T-191,20/03/2026,Sensor ABS intermitente,0.33,no,sí,B
+H-00700,T-127,19/03/2026,Sensor ABS intermitente,21,sí,no,A
+H-00701,T-141,20/03/2026,Sensor ABS intermitente,,sí,no,A
+H-00702,T-115,17/03/2026,Desgaste de balatas,63,sí,no,A
+H-00703,T-132,22/03/2026,Desgaste de balatas,47,sí,sí,A
+H-00704,T-150,19/03/2026,Desgaste de balatas,92,sí,sí,A
+H-00705,T-182,19/03/2026,Desgaste de balatas,0.45,sí,no,B
+H-00706,T-105,17/03/2026,Desgaste de balatas,64,sí,sí,A
+H-00707,T-232,16/03/2026,DESGASTE BALATAS,0.88,sí,sí,B
+H-00708,T-115,20/03/2026,Falla de comunicación CAN,15,sí,no,A
+H-00709,T-201,21/03/2026,Falla de comunicación CAN,0.02,no,no,B
+H-00710,T-167,20/03/2026,Falla CAN,6,no,no,A
+H-00711,T-122,22/03/2026,Falla de comunicación CAN,4,no,no,A
+H-00712,T-150,17/03/2026,Falla de comunicación CAN,7,no,no,A
+H-00713,T-170,20/03/2026,Falla de comunicación CAN,,sí,no,A
+H-00714,T-208,19/03/2026,Falla de comunicación CAN,0.08,sí,no,B
+H-00715,T-212,27/03/2026,Presión de aire baja,0.2,sí,sí,B
+H-00716,T-133,28/03/2026,Presión de aire baja,67,sí,no,A
+H-00717,T-137,2026-03-24,Presión de aire baja,64,sí,no,A
+H-00718,T-134,24/03/2026,Presión de aire baja,36,sí,no,A
+H-00719,T-193,29/03/2026,Presión de aire baja,0.4,sí,no,B
+H-00720,T-116,26/03/2026,Presión de aire baja,21,sí,no,A
+H-00721,T-112,25/03/2026,Presión de aire baja,44,sí,sí,A
+H-00722,T-237,24/03/2026,Presión de aire baja,0.26,sí,no,B
+H-00723,T-174,25/03/2026,Temperatura de refrigerante alta,0.53,no,no,B
+H-00724,T-219,28/03/2026,Temperatura de refrigerante alta,0.54,no,sí,B
+H-00725,T-189,27/03/2026,Coolant temp high,0.12,no,no,B
+H-00726,T-222,29/03/2026,Temperatura de refrigerante alta,0.48,no,no,B
+H-00727,T-107,29/03/2026,Temperatura de refrigerante alta,62,sí,no,A
+H-00728,T-235,24/03/2026,Coolant temp high,0.27,no,no,B
+H-00729,T-181,29/03/2026,Presión de aceite baja,0.82,sí,sí,B
+H-00730,T-140,26/03/2026,Presión de aceite baja,20,sí,no,A
+H-00731,T-187,23/03/2026,Presión de aceite baja,0.53,sí,sí,B
+H-00732,T-189,29/03/2026,Voltaje de batería bajo,0.31,sí,no,B
+H-00733,T-115,29/03/2026,Low battery voltage,18,no,no,A
+H-00734,T-172,25/03/2026,Voltaje de batería bajo,0.13,no,no,B
+H-00735,T-185,28/03/2026,Voltaje de batería bajo,0.16,no,no,B
+H-00736,T-161,23/03/2026,Low battery voltage,12,sí,no,A
+H-00737,T-228,29/03/2026,Voltaje de batería bajo,0.38,no,no,B
+H-00738,T-118,29/03/2026,Voltaje de batería bajo,31,sí,no,A
+H-00739,T-148,24/03/2026,Voltaje de batería bajo,19,no,no,A
+H-00740,T-197,28/03/2026,Voltaje de batería bajo,0.27,sí,no,B
+H-00741,T-112,24/03/2026,Voltaje de batería bajo,36,no,no,A
+H-00742,T-194,28/03/2026,Voltaje de batería bajo,0.34,sí,no,B
+H-00743,T-155,2026-03-29,Voltaje de batería bajo,5,no,no,A
+H-00744,T-220,24/03/2026,Low battery voltage,0.34,no,no,B
+H-00745,T-104,28/03/2026,Filtro de partículas saturado,25,sí,no,A
+H-00746,T-233,27/03/2026,Filtro de partículas saturado,,no,no,B
+H-00747,T-128,28/03/2026,Filtro de partículas saturado,51,sí,no,A
+H-00748,T-180,28/03/2026,Filtro de partículas saturado,0.17,sí,no,B
+H-00749,T-196,28/03/2026,Filtro de partículas saturado,0.46,sí,no,B
+H-00750,T-121,23/03/2026,Filtro de partículas saturado,58,no,no,A
+H-00751,T-143,27/03/2026,Filtro de partículas saturado,14,no,no,A
+H-00752,T-132,28/03/2026,FILTRO PARTICULAS SATURADO,40,no,no,A
+H-00753,T-164,27/03/2026,Filtro de partículas saturado,69,no,no,A
+H-00754,T-197,29/03/2026,Filtro de partículas saturado,0.62,no,sí,B
+H-00755,T-206,28/03/2026,Filtro de partículas saturado,0.24,no,no,B
+H-00756,T-232,27/03/2026,Sensor ABS intermitente,0.17,no,no,B
+H-00757,T-114,24/03/2026,Sensor ABS intermitente,9,no,no,A
+H-00758,T-226,23/03/2026,Sensor ABS intermitente,0.44,no,no,B
+H-00759,T-128,27/03/2026,Sensor ABS intermitente,12,sí,no,A
+H-00760,T-128,25/03/2026,Sensor ABS intermitente,7,sí,no,A
+H-00761,T-132,27/03/2026,Sensor ABS intermitente,7,no,no,A
+H-00762,T-165,29/03/2026,Sensor ABS intermitente,,no,no,A
+H-00763,T-137,26/03/2026,Sensor ABS intermitente,4,no,no,A
+H-00764,T-187,25/03/2026,Sensor ABS intermitente,0.06,no,no,B
+H-00765,T-145,24/03/2026,Sensor ABS intermitente,8,no,no,A
+H-00766,T-238,26/03/2026,Sensor ABS intermitente,0.72,no,no,B
+H-00767,T-132,29/03/2026,DESGASTE BALATAS,53,sí,sí,A
+H-00768,T-213,29/03/2026,Desgaste de balatas,0.34,sí,no,B
+H-00769,T-234,29/03/2026,Desgaste de balatas,0.25,sí,no,B
+H-00770,T-105,2026-03-24,Desgaste de balatas,24,sí,no,A
+H-00771,T-231,24/03/2026,Desgaste de balatas,0.63,sí,no,B
+H-00772,T-205,27/03/2026,Desgaste de balatas,0.91,sí,no,B
+H-00773,T-184,27/03/2026,Falla de comunicación CAN,0.14,no,no,B
+H-00774,T-119,24/03/2026,CAN communication fault,6,no,no,A
+H-00775,T-105,29/03/2026,Falla de comunicación CAN,5,no,no,A
+H-00776,T-235,25/03/2026,Falla de comunicación CAN,0.17,no,no,B
+H-00777,T-121,27/03/2026,Falla de comunicación CAN,13,sí,no,A
+H-00778,T-178,23/03/2026,Falla de comunicación CAN,0.27,no,no,B
+H-00779,T-108,29/03/2026,Falla de comunicación CAN,24,sí,no,A
+H-00780,T-182,24/03/2026,CAN communication fault,0.11,sí,no,B
+H-00781,T-231,24/03/2026,Falla de comunicación CAN,0.13,no,no,B
+H-00782,T-206,27/03/2026,Falla de comunicación CAN,0.18,no,no,B
+H-00783,T-124,27/03/2026,Falla CAN,6,sí,no,A
+H-00784,T-162,26/03/2026,Falla de comunicación CAN,24,no,no,A
+H-00785,T-169,31/03/2026,Presión de aire baja,16,sí,sí,A
+H-00786,T-179,02/04/2026,Presión de aire baja,0.22,sí,no,B
+H-00787,T-134,05/04/2026,Presión de aire baja,23,sí,no,A
+H-00788,T-120,02/04/2026,Presión de aire baja,47,sí,no,A
+H-00789,T-106,05/04/2026,Presión de aire baja,,sí,no,A
+H-00790,T-184,30/03/2026,Presión de aire baja,0.11,sí,no,B
+H-00791,T-171,02/04/2026,Temperatura de refrigerante alta,,no,no,B
+H-00792,T-231,05/04/2026,Temperatura de refrigerante alta,0.31,no,no,B
+H-00793,T-176,2026-04-04,Temperatura de refrigerante alta,0.69,no,sí,B
+H-00794,T-129,01/04/2026,Presión de aceite baja,26,sí,no,A
+H-00795,T-179,2026-04-02,Voltaje de batería bajo,0.19,no,no,B
+H-00796,T-149,03/04/2026,VOLTAJE BATERIA BAJO,9,sí,no,A
+H-00797,T-142,02/04/2026,Low battery voltage,24,no,no,A
+H-00798,T-202,03/04/2026,Voltaje de batería bajo,0.44,no,no,B
+H-00799,T-195,30/03/2026,Voltaje de batería bajo,0.2,no,no,B
+H-00800,T-227,03/04/2026,Voltaje de batería bajo,0.67,no,sí,B
+H-00801,T-106,02/04/2026,Voltaje de batería bajo,10,sí,no,A
+H-00802,T-197,03/04/2026,Voltaje de batería bajo,0.39,no,no,B
+H-00803,T-112,2026-04-04,Voltaje de batería bajo,32,sí,no,A
+H-00804,T-174,31/03/2026,Voltaje de batería bajo,0.06,no,no,B
+H-00805,T-134,03/04/2026,Voltaje de batería bajo,13,no,no,A
+H-00806,T-147,03/04/2026,Voltaje de batería bajo,8,sí,no,A
+H-00807,T-196,04/04/2026,Filtro de partículas saturado,0.39,sí,no,B
+H-00808,T-212,01/04/2026,FILTRO PARTICULAS SATURADO,0.33,no,no,B
+H-00809,T-172,04/04/2026,Filtro de partículas saturado,0.04,sí,no,B
+H-00810,T-203,03/04/2026,Filtro de partículas saturado,0.2,no,no,B
+H-00811,T-118,01/04/2026,Filtro de partículas saturado,16,no,no,A
+H-00812,T-167,31/03/2026,Filtro de partículas saturado,40,sí,no,A
+H-00813,T-151,03/04/2026,Filtro de partículas saturado,38,no,no,A
+H-00814,T-222,02/04/2026,Sensor ABS intermitente,,sí,no,B
+H-00815,T-111,02/04/2026,ABS sensor intermittent,18,no,no,A
+H-00816,T-199,30/03/2026,Sensor ABS intermitente,0.52,no,no,B
+H-00817,T-173,01/04/2026,ABS intermitente,0.13,no,no,B
+H-00818,T-162,31/03/2026,ABS sensor intermittent,6,sí,no,A
+H-00819,T-193,03/04/2026,Sensor ABS intermitente,0.2,no,no,B
+H-00820,T-211,02/04/2026,ABS sensor intermittent,0.18,no,no,B
+H-00821,T-189,2026-04-03,Sensor ABS intermitente,0.13,no,no,B
+H-00822,T-222,30/03/2026,Sensor ABS intermitente,0.27,sí,no,B
+H-00823,T-210,30/03/2026,Sensor ABS intermitente,0.3,no,no,B
+H-00824,T-108,30/03/2026,Sensor ABS intermitente,13,no,no,A
+H-00825,T-167,01/04/2026,ABS sensor intermittent,5,sí,no,A
+H-00826,T-188,30/03/2026,Sensor ABS intermitente,0.06,no,no,B
+H-00827,T-171,04/04/2026,Sensor ABS intermitente,0.15,no,no,B
+H-00828,T-102,2026-04-03,Desgaste de balatas,62,sí,sí,A
+H-00829,T-188,03/04/2026,Desgaste de balatas,0.92,sí,sí,B
+H-00830,T-218,01/04/2026,Desgaste de balatas,0.66,sí,sí,B
+H-00831,T-111,03/04/2026,Falla de comunicación CAN,,sí,no,A
+H-00832,T-236,04/04/2026,Falla de comunicación CAN,0.03,no,no,B
+H-00833,T-224,05/04/2026,Falla de comunicación CAN,0.07,no,no,B
+H-00834,T-104,31/03/2026,Falla de comunicación CAN,33,no,no,A
+H-00835,T-129,02/04/2026,Falla de comunicación CAN,25,no,no,A
+H-00836,T-201,31/03/2026,Falla de comunicación CAN,0.01,no,no,B
+H-00837,T-170,30/03/2026,Falla de comunicación CAN,5,no,no,A
+H-00838,T-140,01/04/2026,CAN communication fault,32,no,sí,A
+H-00839,T-132,03/04/2026,Falla de comunicación CAN,4,no,no,A
+H-00840,T-178,31/03/2026,Falla de comunicación CAN,0.54,no,sí,B
+H-00841,T-231,12/04/2026,Presión de aire baja,0.56,sí,sí,B
+H-00842,T-109,11/04/2026,Presión de aire baja,47,sí,no,A
+H-00843,T-117,08/04/2026,Presión de aire baja,35,sí,no,A
+H-00844,T-225,08/04/2026,Presión de aire baja,0.44,sí,no,B
+H-00845,T-220,07/04/2026,Presión de aire baja,0.55,sí,no,B
+H-00846,T-172,12/04/2026,Presión de aire baja,0.27,sí,no,B
+H-00847,T-164,09/04/2026,Presión de aire baja,53,sí,sí,A
+H-00848,T-161,10/04/2026,Temperatura de refrigerante alta,64,no,sí,A
+H-00849,T-168,07/04/2026,Temperatura de refrigerante alta,31,no,no,A
+H-00850,T-179,09/04/2026,Temperatura de refrigerante alta,0.59,no,no,B
+H-00851,T-199,08/04/2026,Presión de aceite baja,0.35,sí,no,B
+H-00852,T-208,11/04/2026,Presión de aceite baja,0.51,sí,no,B
+H-00853,T-123,10/04/2026,Low battery voltage,16,no,no,A
+H-00854,T-209,10/04/2026,Voltaje de batería bajo,0.39,no,no,B
+H-00855,T-171,07/04/2026,Voltaje de batería bajo,0.23,sí,no,B
+H-00856,T-129,12/04/2026,Voltaje de batería bajo,13,no,no,A
+H-00857,T-190,12/04/2026,Voltaje de batería bajo,0.18,no,no,B
+H-00858,T-222,12/04/2026,Voltaje de batería bajo,0.56,no,no,B
+H-00859,T-107,08/04/2026,Voltaje de batería bajo,33,no,no,A
+H-00860,T-160,07/04/2026,Voltaje de batería bajo,57,no,no,A
+H-00861,T-204,12/04/2026,Voltaje de batería bajo,,no,no,B
+H-00862,T-168,08/04/2026,Voltaje de batería bajo,19,no,no,A
+H-00863,T-103,07/04/2026,Voltaje de batería bajo,4,no,no,A
+H-00864,T-144,07/04/2026,Voltaje de batería bajo,47,no,no,A
+H-00865,T-215,10/04/2026,Voltaje de batería bajo,0.24,no,no,B
+H-00866,T-115,09/04/2026,Voltaje de batería bajo,11,no,no,A
+H-00867,T-152,09/04/2026,Voltaje de batería bajo,5,no,no,A
+H-00868,T-162,06/04/2026,Voltaje de batería bajo,54,no,no,A
+H-00869,T-192,12/04/2026,Voltaje de batería bajo,,no,no,B
+H-00870,T-137,2026-04-11,Voltaje de batería bajo,10,sí,no,A
+H-00871,T-237,06/04/2026,Filtro de partículas saturado,0.6,sí,no,B
+H-00872,T-231,09/04/2026,Filtro de partículas saturado,0.57,no,no,B
+H-00873,T-197,07/04/2026,Filtro de partículas saturado,0.22,no,no,B
+H-00874,T-102,09/04/2026,Filtro de partículas saturado,50,sí,no,A
+H-00875,T-126,10/04/2026,Filtro de partículas saturado,32,no,no,A
+H-00876,T-205,10/04/2026,Filtro de partículas saturado,0.1,sí,no,B
+H-00877,T-201,06/04/2026,Filtro de partículas saturado,0.4,no,sí,B
+H-00878,T-195,12/04/2026,Filtro de partículas saturado,,sí,no,B
+H-00879,T-239,10/04/2026,Filtro de partículas saturado,0.1,sí,no,B
+H-00880,T-179,07/04/2026,Filtro de partículas saturado,0.17,no,no,B
+H-00881,T-163,09/04/2026,Filtro de partículas saturado,22,no,no,A
+H-00882,T-130,09/04/2026,Filtro de partículas saturado,43,no,no,A
+H-00883,T-236,07/04/2026,Sensor ABS intermitente,0.07,no,no,B
+H-00884,T-222,09/04/2026,Sensor ABS intermitente,0.05,no,no,B
+H-00885,T-183,08/04/2026,Sensor ABS intermitente,0.55,sí,no,B
+H-00886,T-125,06/04/2026,ABS sensor intermittent,4,no,no,A
+H-00887,T-114,10/04/2026,Sensor ABS intermitente,66,no,no,A
+H-00888,T-190,12/04/2026,Sensor ABS intermitente,0.29,no,no,B
+H-00889,T-165,07/04/2026,Sensor ABS intermitente,24,no,no,A
+H-00890,T-221,11/04/2026,Sensor ABS intermitente,0.05,no,no,B
+H-00891,T-194,12/04/2026,Sensor ABS intermitente,0.06,no,no,B
+H-00892,T-117,09/04/2026,Sensor ABS intermitente,40,no,no,A
+H-00893,T-229,09/04/2026,Sensor ABS intermitente,,no,no,B
+H-00894,T-159,08/04/2026,ABS sensor intermittent,9,no,no,A
+H-00895,T-228,07/04/2026,Sensor ABS intermitente,0.45,sí,sí,B
+H-00896,T-231,07/04/2026,ABS sensor intermittent,0.2,no,no,B
+H-00897,T-237,06/04/2026,Sensor ABS intermitente,0.12,sí,no,B
+H-00898,T-166,09/04/2026,Sensor ABS intermitente,7,sí,no,A
+H-00899,T-101,07/04/2026,Sensor ABS intermitente,35,no,no,A
+H-00900,T-147,09/04/2026,Desgaste de balatas,,sí,no,A
+H-00901,T-177,08/04/2026,Desgaste de balatas,0.89,sí,sí,B
+H-00902,T-224,09/04/2026,Desgaste de balatas,0.42,sí,no,B
+H-00903,T-195,07/04/2026,Brake pad wear,0.91,sí,sí,B
+H-00904,T-116,12/04/2026,Desgaste de balatas,57,sí,no,A
+H-00905,T-146,07/04/2026,Desgaste de balatas,60,sí,no,A
+H-00906,T-157,11/04/2026,Desgaste de balatas,70,sí,no,A
+H-00907,T-213,06/04/2026,Falla de comunicación CAN,,no,no,B
+H-00908,T-110,09/04/2026,CAN communication fault,6,no,no,A
+H-00909,T-201,12/04/2026,Falla de comunicación CAN,0.04,sí,no,B
+H-00910,T-176,09/04/2026,CAN communication fault,0.05,sí,no,B
+H-00911,T-120,11/04/2026,Falla de comunicación CAN,15,no,no,A
+H-00912,T-117,06/04/2026,Falla de comunicación CAN,51,sí,no,A
+H-00913,T-153,10/04/2026,Falla de comunicación CAN,18,sí,no,A
+H-00914,T-135,08/04/2026,Falla de comunicación CAN,,no,no,A
+H-00915,T-233,2026-04-07,Falla de comunicación CAN,0.31,no,no,B
+H-00916,T-139,2026-04-16,Presión de aire baja,41,sí,no,A
+H-00917,T-101,31/02/2026,Presión de aire baja,12,sí,no,A
+H-00918,T-117,16/04/2026,PRESION DE AIRE BAJA,48,sí,no,A
+H-00919,T-168,17/04/2026,Presión de aire baja,,sí,no,A
+H-00920,T-105,15/04/2026,Presión de aire baja,42,sí,no,A
+H-00921,T-163,17/04/2026,Temperatura de refrigerante alta,79,no,no,A
+H-00922,T-140,13/04/2026,Temperatura de refrigerante alta,24,no,no,A
+H-00923,T-177,16/04/2026,Temperatura de refrigerante alta,0.37,no,no,B
+H-00924,T-228,16/04/2026,Presión de aceite baja,0.73,sí,sí,B
+H-00925,T-233,17/04/2026,Presión de aceite baja,0.41,sí,no,B
+H-00926,T-113,16/04/2026,Presión de aceite baja,74,sí,no,A
+H-00927,T-124,16/04/2026,Voltaje de batería bajo,11,sí,no,A
+H-00928,T-105,19/04/2026,Voltaje de batería bajo,12,no,no,A
+H-00929,T-170,17/04/2026,VOLTAJE BATERIA BAJO,19,sí,no,A
+H-00930,T-163,17/04/2026,Voltaje de batería bajo,12,no,no,A
+H-00931,T-175,16/04/2026,Low battery voltage,0.06,no,no,B
+H-00932,T-115,15/04/2026,Voltaje de batería bajo,17,sí,no,A
+H-00933,T-230,16/04/2026,Voltaje de batería bajo,0.22,no,no,B
+H-00934,T-186,15/04/2026,Voltaje de batería bajo,0.64,no,no,B
+H-00935,T-113,14/04/2026,Voltaje de batería bajo,41,no,sí,A
+H-00936,T-121,16/04/2026,Filtro de partículas saturado,6,no,no,A
+H-00937,T-199,19/04/2026,FILTRO PARTICULAS SATURADO,0.27,no,sí,B
+H-00938,T-117,13/04/2026,Filtro de partículas saturado,69,no,no,A
+H-00939,T-114,14/04/2026,Filtro de partículas saturado,42,sí,no,A
+H-00940,T-122,19/04/2026,Filtro de partículas saturado,10,no,no,A
+H-00941,T-140,15/04/2026,Filtro de partículas saturado,37,sí,no,A
+H-00942,T-178,19/04/2026,Filtro de partículas saturado,0.34,sí,no,B
+H-00943,T-233,15/04/2026,Filtro de partículas saturado,0.13,no,no,B
+H-00944,T-202,13/04/2026,Filtro de partículas saturado,0.54,no,no,B
+H-00945,T-225,19/04/2026,Filtro de partículas saturado,0.25,no,no,B
+H-00946,T-102,13/04/2026,Filtro de partículas saturado,17,no,no,A
+H-00947,T-172,2026-04-15,Filtro de partículas saturado,0.49,no,no,B
+H-00948,T-163,2026-04-17,Filtro de partículas saturado,19,sí,no,A
+H-00949,T-149,19/04/2026,Filtro de partículas saturado,23,no,no,A
+H-00950,T-159,19/04/2026,ABS sensor intermittent,66,no,sí,A
+H-00951,T-155,15/04/2026,Sensor ABS intermitente,,sí,no,A
+H-00952,T-198,19/04/2026,Sensor ABS intermitente,0.17,sí,no,B
+H-00953,T-130,18/04/2026,Sensor ABS intermitente,90,no,sí,A
+H-00954,T-188,15/04/2026,Sensor ABS intermitente,0.28,no,no,B
+H-00955,T-167,19/04/2026,Sensor ABS intermitente,23,no,no,A
+H-00956,T-186,19/04/2026,Sensor ABS intermitente,0.38,no,no,B
+H-00957,T-183,46125,Sensor ABS intermitente,0.29,no,sí,B
+H-00958,T-146,19/04/2026,Sensor ABS intermitente,14,no,no,A
+H-00959,T-203,13/04/2026,Sensor ABS intermitente,0.16,no,no,B
+H-00960,T-225,14/04/2026,Desgaste de balatas,0.86,sí,sí,B
+H-00961,T-107,13/04/2026,Desgaste de balatas,42,sí,no,A
+H-00962,T-109,18/04/2026,Falla de comunicación CAN,11,no,no,A
+H-00963,T-238,17/04/2026,Falla de comunicación CAN,0.22,no,no,B
+H-00964,T-146,18/04/2026,Falla de comunicación CAN,10,no,no,A
+H-00965,T-226,18/04/2026,Falla de comunicación CAN,,no,no,B
+H-00966,T-234,18/04/2026,Falla de comunicación CAN,0.13,sí,no,B
+H-00967,T-225,19/04/2026,Falla de comunicación CAN,0.13,no,no,B
+H-00968,T-146,14/04/2026,Falla de comunicación CAN,22,sí,no,A
+H-00969,T-195,15/04/2026,Falla CAN,0.21,sí,no,B
+H-00970,T-195,16/04/2026,Falla de comunicación CAN,0.21,no,no,B
+H-00971,T-182,15/04/2026,Falla de comunicación CAN,0.19,no,no,B
+H-00972,T-152,16/04/2026,Falla CAN,1,no,no,A
+H-00973,T-235,14/04/2026,Falla de comunicación CAN,0.02,sí,no,B
+H-00974,T-225,18/04/2026,Falla de comunicación CAN,,no,no,B
+H-00975,T-237,23/04/2026,Presión de aire baja,0.21,sí,no,B
+H-00976,T-107,20/04/2026,Presión de aire baja,29,sí,no,A
+H-00977,T-186,20/04/2026,Presión de aire baja,0.3,sí,no,B
+H-00978,T-127,22/04/2026,PRESION DE AIRE BAJA,47,sí,sí,A
+H-00979,T-104,22/04/2026,Presión de aire baja,27,sí,no,A
+H-00980,T-167,23/04/2026,Presión de aire baja,39,sí,no,A
+H-00981,T-155,22/04/2026,Presión de aire baja,,sí,no,A
+H-00982,T-111,20/04/2026,Presión de aire baja,70,sí,sí,A
+H-00983,T-205,25/04/2026,Presión de aire baja,0.73,sí,no,B
+H-00984,T-199,2026-04-24,Presión de aire baja,0.44,sí,no,B
+H-00985,T-134,2026-04-26,Temperatura de refrigerante alta,80,no,sí,A
+H-00986,T-174,22/04/2026,Temperatura de refrigerante alta,0.57,sí,no,B
+H-00987,T-195,22/04/2026,Temperatura de refrigerante alta,0.25,no,no,B
+H-00988,T-125,23/04/2026,Presión de aceite baja,,sí,no,A
+H-00989,T-167,26/04/2026,Presión de aceite baja,55,sí,no,A
+H-00990,T-133,21/04/2026,Voltaje de batería bajo,24,no,no,A
+H-00991,T-123,23/04/2026,Voltaje de batería bajo,77,no,no,A
+H-00992,T-195,25/04/2026,Voltaje de batería bajo,,no,no,B
+H-00993,T-212,25/04/2026,Voltaje de batería bajo,0.14,no,no,B
+H-00994,T-213,25/04/2026,Voltaje de batería bajo,0.62,no,no,B
+H-00995,T-158,26/04/2026,Low battery voltage,28,sí,no,A
+H-00996,T-135,25/04/2026,Low battery voltage,6,sí,no,A
+H-00997,T-150,2026-04-26,Voltaje de batería bajo,5,no,no,A
+H-00998,T-108,24/04/2026,Voltaje de batería bajo,19,no,no,A
+H-00999,T-204,26/04/2026,Voltaje de batería bajo,0.16,no,no,B
+H-01000,T-208,24/04/2026,Voltaje de batería bajo,0.71,sí,sí,B
+H-01001,T-190,23/04/2026,Voltaje de batería bajo,0.14,sí,no,B
+H-01002,T-188,25/04/2026,FILTRO PARTICULAS SATURADO,0.06,sí,no,B
+H-01003,T-155,24/04/2026,Filtro de partículas saturado,52,no,no,A
+H-01004,T-166,25/04/2026,Filtro de partículas saturado,16,no,no,A
+H-01005,T-141,25/04/2026,Filtro de partículas saturado,61,no,no,A
+H-01006,T-219,2026-04-22,Filtro de partículas saturado,0.4,no,no,B
+H-01007,T-172,22/04/2026,Filtro de partículas saturado,0.7,sí,sí,B
+H-01008,T-195,24/04/2026,Filtro de partículas saturado,0.43,no,no,B
+H-01009,T-128,26/04/2026,Filtro de partículas saturado,,no,no,A
+H-01010,T-229,23/04/2026,Sensor ABS intermitente,0.32,no,no,B
+H-01011,T-146,22/04/2026,Sensor ABS intermitente,,no,no,A
+H-01012,T-231,20/04/2026,Sensor ABS intermitente,0.32,sí,no,B
+H-01013,T-195,24/04/2026,Sensor ABS intermitente,0.13,no,no,B
+H-01014,T-192,21/04/2026,Sensor ABS intermitente,0.37,no,no,B
+H-01015,T-137,21/04/2026,Sensor ABS intermitente,46,sí,no,A
+H-01016,T-187,24/04/2026,Sensor ABS intermitente,0.26,sí,no,B
+H-01017,T-155,25/04/2026,Sensor ABS intermitente,41,no,no,A
+H-01018,T-206,20/04/2026,Sensor ABS intermitente,0.29,no,no,B
+H-01019,T-110,26/04/2026,Sensor ABS intermitente,17,no,no,A
+H-01020,T-111,20/04/2026,Sensor ABS intermitente,5,no,no,A
+H-01021,T-234,21/04/2026,Sensor ABS intermitente,0.04,sí,no,B
+H-01022,T-226,26/04/2026,Sensor ABS intermitente,0.19,no,no,B
+H-01023,T-202,24/04/2026,Sensor ABS intermitente,0.02,no,no,B
+H-01024,T-205,22/04/2026,Sensor ABS intermitente,0.61,no,no,B
+H-01025,T-169,2026-04-20,Sensor ABS intermitente,13,no,no,A
+H-01026,T-109,24/04/2026,Sensor ABS intermitente,22,no,no,A
+H-01027,T-229,25/04/2026,Sensor ABS intermitente,0.36,no,no,B
+H-01028,T-144,21/04/2026,Sensor ABS intermitente,3,sí,no,A
+H-01029,T-132,21/04/2026,Desgaste de balatas,67,sí,no,A
+H-01030,T-177,23/04/2026,Desgaste de balatas,0.91,sí,no,B
+H-01031,T-102,20/04/2026,DESGASTE BALATAS,79,sí,no,A
+H-01032,T-226,26/04/2026,Desgaste de balatas,0.86,sí,no,B
+H-01033,T-210,24/04/2026,Falla de comunicación CAN,0.23,no,no,B
+H-01034,T-163,26/04/2026,Falla de comunicación CAN,16,sí,no,A
+H-01035,T-164,26/04/2026,Falla de comunicación CAN,15,sí,no,A
+H-01036,T-134,21/04/2026,Falla de comunicación CAN,3,no,no,A
+H-01037,T-223,20/04/2026,Falla de comunicación CAN,0.08,sí,no,B
+H-01038,T-216,26/04/2026,Falla de comunicación CAN,0.24,no,no,B
+H-01039,T-239,24/04/2026,Falla de comunicación CAN,0.05,no,no,B
+H-01040,T-137,24/04/2026,Falla de comunicación CAN,7,no,no,A
+H-01041,T-163,24/04/2026,CAN communication fault,4,no,no,A
+H-01042,T-146,23/04/2026,Falla de comunicación CAN,52,no,sí,A
+H-01043,T-180,27/04/2026,Presión de aire baja,0.54,sí,no,B
+H-01044,T-152,28/04/2026,Presión de aire baja,,sí,no,A
+H-01045,T-142,28/04/2026,Presión de aire baja,13,sí,no,A
+H-01046,T-239,01/05/2026,Pres. aire baja,0.39,sí,no,B
+H-01047,T-189,27/04/2026,Temperatura de refrigerante alta,0.11,no,no,B
+H-01048,T-130,27/04/2026,Temperatura de refrigerante alta,82,no,no,A
+H-01049,T-127,29/04/2026,Temperatura de refrigerante alta,75,no,no,A
+H-01050,T-149,28/04/2026,Temperatura de refrigerante alta,70,no,sí,A
+H-01051,T-156,29/04/2026,Temperatura de refrigerante alta,36,no,no,A
+H-01052,T-118,01/05/2026,PRESION ACEITE BAJA,29,sí,no,A
+H-01053,T-216,02/05/2026,Voltaje de batería bajo,0.42,no,no,B
+H-01054,T-186,01/05/2026,Voltaje de batería bajo,0.23,no,no,B
+H-01055,T-209,01/05/2026,Voltaje de batería bajo,0.5,no,sí,B
+H-01056,T-133,03/05/2026,Voltaje de batería bajo,36,no,sí,A
+H-01057,T-105,29/04/2026,Voltaje de batería bajo,11,no,no,A
+H-01058,T-119,29/04/2026,Voltaje de batería bajo,49,no,no,A
+H-01059,T-132,28/04/2026,DPF saturado,46,no,no,A
+H-01060,T-188,28/04/2026,Filtro de partículas saturado,,no,no,B
+H-01061,T-143,01/05/2026,Filtro de partículas saturado,20,sí,no,A
+H-01062,T-194,29/04/2026,Filtro de partículas saturado,0.16,sí,no,B
+H-01063,T-191,01/05/2026,DPF saturado,0.21,no,no,B
+H-01064,T-151,28/04/2026,Filtro de partículas saturado,25,no,no,A
+H-01065,T-147,29/04/2026,Sensor ABS intermitente,4,sí,no,A
+H-01066,T-196,2026-05-01,Sensor ABS intermitente,0.03,no,no,B
+H-01067,T-170,29/04/2026,Sensor ABS intermitente,,sí,no,A
+H-01068,T-106,29/04/2026,Sensor ABS intermitente,18,sí,no,A
+H-01069,T-158,01/05/2026,ABS intermitente,18,no,no,A
+H-01070,T-197,03/05/2026,Sensor ABS intermitente,0.63,no,no,B
+H-01071,T-118,28/04/2026,Sensor ABS intermitente,12,no,no,A
+H-01072,T-240,03/05/2026,Sensor ABS intermitente,0.12,no,no,B
+H-01073,T-218,01/05/2026,Desgaste de balatas,,sí,sí,B
+H-01074,T-224,03/05/2026,Desgaste de balatas,0.51,sí,no,B
+H-01075,T-213,28/04/2026,Desgaste de balatas,0.33,sí,no,B
+H-01076,T-226,02/05/2026,Desgaste de balatas,0.59,sí,no,B
+H-01077,T-210,27/04/2026,Falla de comunicación CAN,0.16,no,no,B
+H-01078,T-229,03/05/2026,Falla de comunicación CAN,0.14,no,no,B
+H-01079,T-125,2026-04-28,Falla de comunicación CAN,1,no,no,A
+H-01080,T-131,28/04/2026,Falla de comunicación CAN,29,no,no,A
+H-01081,T-147,02/05/2026,Falla de comunicación CAN,5,no,no,A
+H-01082,T-150,27/04/2026,Falla de comunicación CAN,12,sí,no,A
+H-01083,T-229,29/04/2026,Falla de comunicación CAN,0.05,no,no,B
+H-01084,T-184,02/05/2026,Falla de comunicación CAN,0.17,no,no,B
+H-01085,T-171,05/05/2026,Presión de aire baja,,sí,,B
+H-01086,T-188,08/05/2026,Presión de aire baja,0.38,sí,,B
+H-01087,T-117,31/02/2026,Presión de aire baja,58,sí,,A
+H-01088,T-220,05/05/2026,Presión de aire baja,0.52,sí,,B
+H-01089,T-199,04/05/2026,Presión de aire baja,0.33,sí,,B
+H-01090,T-123,09/05/2026,Presión de aire baja,51,sí,,A
+H-01091,T-159,07/05/2026,Presión de aire baja,,sí,,A
+H-01092,T-104,05/05/2026,PRESION DE AIRE BAJA,72,sí,,A
+H-01093,T-183,08/05/2026,Presión de aire baja,0.59,sí,,B
+H-01094,T-239,10/05/2026,Presión de aire baja,0.22,sí,,B
+H-01095,T-191,2026-05-10,Presión de aire baja,0.32,sí,,B
+H-01096,T-111,06/05/2026,Temperatura de refrigerante alta,34,sí,,A
+H-01097,T-224,08/05/2026,Temperatura de refrigerante alta,,no,,B
+H-01098,T-222,07/05/2026,Temperatura de refrigerante alta,0.7,sí,,B
+H-01099,T-223,06/05/2026,Temperatura de refrigerante alta,0.53,no,,B
+H-01100,T-124,07/05/2026,Presión de aceite baja,64,sí,,A
+H-01101,T-226,08/05/2026,Presión de aceite baja,,sí,,B
+H-01102,T-232,09/05/2026,Low oil pressure,0.68,sí,,B
+H-01103,T-227,07/05/2026,Presión de aceite baja,0.78,sí,,B
+H-01104,T-226,2026-05-06,Presión de aceite baja,0.36,sí,,B
+H-01105,T-130,09/05/2026,Low oil pressure,7,sí,,A
+H-01106,T-116,06/05/2026,Presión de aceite baja,42,sí,,A
+H-01107,T-174,08/05/2026,Voltaje de batería bajo,,no,,B
+H-01108,T-222,10/05/2026,Voltaje de batería bajo,0.08,sí,,B
+H-01109,T-119,04/05/2026,Voltaje de batería bajo,14,sí,,A
+H-01110,T-157,10/05/2026,Voltaje de batería bajo,15,no,,A
+H-01111,T-180,04/05/2026,Voltaje de batería bajo,0.09,sí,,B
+H-01112,T-178,05/05/2026,Voltaje de batería bajo,0.19,no,,B
+H-01113,T-111,06/05/2026,Voltaje de batería bajo,21,no,,A
+H-01114,T-117,08/05/2026,Voltaje de batería bajo,9,no,,A
+H-01115,T-125,09/05/2026,Voltaje de batería bajo,19,no,,A
+H-01116,T-117,07/05/2026,Voltaje de batería bajo,52,no,,A
+H-01117,T-143,09/05/2026,Voltaje de batería bajo,8,no,,A
+H-01118,T-190,06/05/2026,Voltaje de batería bajo,0.12,sí,,B
+H-01119,T-170,09/05/2026,VOLTAJE BATERIA BAJO,11,no,,A
+H-01120,T-239,10/05/2026,Voltaje de batería bajo,0.59,no,,B
+H-01121,T-177,07/05/2026,Filtro de partículas saturado,0.24,no,,B
+H-01122,T-187,10/05/2026,Filtro de partículas saturado,0.41,no,,B
+H-01123,T-116,07/05/2026,Filtro de partículas saturado,22,no,,A
+H-01124,T-200,04/05/2026,Filtro de partículas saturado,0.68,no,,B
+H-01125,T-156,05/05/2026,Filtro de partículas saturado,11,no,,A
+H-01126,T-131,07/05/2026,Filtro de partículas saturado,24,no,,A
+H-01127,T-152,2026-05-05,Filtro de partículas saturado,35,no,,A
+H-01128,T-125,09/05/2026,Filtro de partículas saturado,28,no,,A
+H-01129,T-153,09/05/2026,Filtro de partículas saturado,14,no,,A
+H-01130,T-164,07/05/2026,Filtro de partículas saturado,13,no,,A
+H-01131,T-240,2026-05-09,Filtro de partículas saturado,0.17,no,,B
+H-01132,T-176,05/05/2026,Sensor ABS intermitente,0.49,no,,B
+H-01133,T-207,07/05/2026,ABS intermitente,0.18,no,,B
+H-01134,T-193,07/05/2026,Sensor ABS intermitente,0.13,sí,,B
+H-01135,T-231,06/05/2026,Sensor ABS intermitente,0.46,sí,,B
+H-01136,T-147,08/05/2026,Sensor ABS intermitente,6,no,,A
+H-01137,T-205,09/05/2026,Sensor ABS intermitente,0.13,no,,B
+H-01138,T-152,05/05/2026,Sensor ABS intermitente,8,sí,,A
+H-01139,T-141,04/05/2026,Sensor ABS intermitente,13,sí,,A
+H-01140,T-143,10/05/2026,Sensor ABS intermitente,47,sí,,A
+H-01141,T-191,04/05/2026,Sensor ABS intermitente,0.11,no,,B
+H-01142,T-170,07/05/2026,Sensor ABS intermitente,23,no,,A
+H-01143,T-139,07/05/2026,Desgaste de balatas,,sí,,A
+H-01144,T-210,05/05/2026,DESGASTE BALATAS,0.75,sí,,B
+H-01145,T-113,04/05/2026,Desgaste de balatas,37,sí,,A
+H-01146,T-121,2026-05-08,Falla de comunicación CAN,4,no,,A
+H-01147,T-157,10/05/2026,Falla de comunicación CAN,6,sí,,A
+H-01148,T-211,04/05/2026,Falla de comunicación CAN,0.1,no,,B
+H-01149,T-232,05/05/2026,Falla de comunicación CAN,0.7,sí,,B
+H-01150,T-202,08/05/2026,Falla de comunicación CAN,0.06,sí,,B
+H-01151,T-154,08/05/2026,Falla de comunicación CAN,57,sí,,A
+H-01152,T-184,10/05/2026,Falla de comunicación CAN,0.09,no,,B
+H-01153,T-153,05/05/2026,Falla de comunicación CAN,9,no,,A
+H-01154,T-239,05/05/2026,Falla de comunicación CAN,0.23,no,,B
+H-01155,T-121,09/05/2026,Falla de comunicación CAN,16,no,,A
+H-01156,T-213,04/05/2026,Falla de comunicación CAN,0.56,no,,B
+H-01157,T-182,2026-05-08,Falla de comunicación CAN,0.19,no,,B
+H-01158,T-139,07/05/2026,Falla de comunicación CAN,47,no,,A
+H-01159,T-202,12/05/2026,Presión de aire baja,0.75,sí,,B
+H-01160,T-234,15/05/2026,Presión de aire baja,0.5,sí,,B
+H-01161,T-192,17/05/2026,Presión de aire baja,0.21,sí,,B
+H-01162,T-237,13/05/2026,Presión de aire baja,,sí,,B
+H-01163,T-107,15/05/2026,Presión de aire baja,58,sí,,A
+H-01164,T-213,14/05/2026,Presión de aire baja,0.59,sí,,B
+H-01165,T-153,11/05/2026,Presión de aire baja,76,sí,,A
+H-01166,T-236,12/05/2026,Temperatura de refrigerante alta,0.49,no,,B
+H-01167,T-180,11/05/2026,Temperatura de refrigerante alta,0.25,no,,B
+H-01168,T-182,14/05/2026,Temperatura de refrigerante alta,0.6,no,,B
+H-01169,T-174,17/05/2026,Temperatura de refrigerante alta,0.23,no,,B
+H-01170,T-224,17/05/2026,Temperatura de refrigerante alta,0.38,sí,,B
+H-01171,T-123,15/05/2026,Temperatura de refrigerante alta,52,no,,A
+H-01172,T-204,13/05/2026,Temperatura de refrigerante alta,0.4,no,,B
+H-01173,T-233,15/05/2026,Presión de aceite baja,0.62,sí,,B
+H-01174,T-219,16/05/2026,Presión de aceite baja,0.58,sí,,B
+H-01175,T-131,15/05/2026,Presión de aceite baja,33,sí,,A
+H-01176,T-231,11/05/2026,Presión de aceite baja,0.21,sí,,B
+H-01177,T-228,13/05/2026,Presión de aceite baja,,sí,,B
+H-01178,T-205,16/05/2026,Presión de aceite baja,0.42,sí,,B
+H-01179,T-172,16/05/2026,Presión de aceite baja,0.46,sí,,B
+H-01180,T-136,16/05/2026,Voltaje de batería bajo,46,no,,A
+H-01181,T-195,2026-05-14,Voltaje de batería bajo,0.38,sí,,B
+H-01182,T-235,14/05/2026,Voltaje de batería bajo,0.43,no,,B
+H-01183,T-106,14/05/2026,Voltaje de batería bajo,12,sí,,A
+H-01184,T-179,14/05/2026,Voltaje de batería bajo,0.04,no,,B
+H-01185,T-147,17/05/2026,Voltaje de batería bajo,9,no,,A
+H-01186,T-130,13/05/2026,VOLTAJE BATERIA BAJO,55,no,,A
+H-01187,T-178,11/05/2026,Voltaje de batería bajo,0.36,sí,,B
+H-01188,T-123,15/05/2026,Filtro de partículas saturado,4,sí,,A
+H-01189,T-148,17/05/2026,Filtro de partículas saturado,24,sí,,A
+H-01190,T-121,12/05/2026,Filtro de partículas saturado,10,no,,A
+H-01191,T-150,11/05/2026,Filtro de partículas saturado,25,sí,,A
+H-01192,T-151,17/05/2026,Filtro de partículas saturado,71,no,,A
+H-01193,T-104,15/05/2026,Filtro de partículas saturado,45,sí,,A
+H-01194,T-196,14/05/2026,Filtro de partículas saturado,0.44,no,,B
+H-01195,T-197,11/05/2026,Filtro de partículas saturado,0.52,sí,,B
+H-01196,T-192,12/05/2026,Filtro de partículas saturado,0.38,no,,B
+H-01197,T-217,12/05/2026,Filtro de partículas saturado,0.18,no,,B
+H-01198,T-188,17/05/2026,Filtro de partículas saturado,0.45,no,,B
+H-01199,T-159,17/05/2026,Filtro de partículas saturado,,no,,A
+H-01200,T-117,14/05/2026,Filtro de partículas saturado,44,no,,A
+H-01201,T-240,12/05/2026,Filtro de partículas saturado,0.67,sí,,B
+H-01202,T-226,16/05/2026,DPF saturado,0.6,no,,B
+H-01203,T-170,17/05/2026,Filtro de partículas saturado,40,no,,A
+H-01204,T-237,2026-05-14,Filtro de partículas saturado,0.28,sí,,B
+H-01205,T-218,13/05/2026,Sensor ABS intermitente,0.13,no,,B
+H-01206,T-179,16/05/2026,Sensor ABS intermitente,0.05,no,,B
+H-01207,T-110,11/05/2026,ABS sensor intermittent,73,no,,A
+H-01208,T-159,11/05/2026,ABS intermitente,14,no,,A
+H-01209,T-231,15/05/2026,Sensor ABS intermitente,0.15,no,,B
+H-01210,T-183,11/05/2026,Sensor ABS intermitente,0.69,no,,B
+H-01211,T-195,16/05/2026,Sensor ABS intermitente,0.14,no,,B
+H-01212,T-171,11/05/2026,Sensor ABS intermitente,0.03,no,,B
+H-01213,T-217,11/05/2026,Sensor ABS intermitente,0.16,sí,,B
+H-01214,T-212,17/05/2026,Sensor ABS intermitente,0.3,no,,B
+H-01215,T-221,14/05/2026,Sensor ABS intermitente,0.16,sí,,B
+H-01216,T-189,14/05/2026,Sensor ABS intermitente,0.06,no,,B
+H-01217,T-221,17/05/2026,Sensor ABS intermitente,0.49,no,,B
+H-01218,T-175,15/05/2026,Sensor ABS intermitente,0.12,no,,B
+H-01219,T-146,17/05/2026,Sensor ABS intermitente,27,sí,,A
+H-01220,T-109,11/05/2026,Sensor ABS intermitente,10,sí,,A
+H-01221,T-219,13/05/2026,Sensor ABS intermitente,0.09,no,,B
+H-01222,T-147,11/05/2026,Desgaste de balatas,21,sí,,A
+H-01223,T-137,13/05/2026,Desgaste de balatas,,sí,,A
+H-01224,T-186,13/05/2026,Desgaste de balatas,0.53,sí,,B
+H-01225,T-173,17/05/2026,Desgaste de balatas,0.49,sí,,B
+H-01226,T-109,13/05/2026,Falla de comunicación CAN,12,no,,A
+H-01227,T-171,12/05/2026,Falla de comunicación CAN,0.5,no,,B
+H-01228,T-233,13/05/2026,Falla de comunicación CAN,0.23,no,,B
+H-01229,T-128,13/05/2026,Falla de comunicación CAN,14,no,,A
+H-01230,T-238,11/05/2026,CAN communication fault,0.05,no,,B
+H-01231,T-151,16/05/2026,Falla CAN,22,no,,A
+H-01232,T-123,17/05/2026,Falla CAN,52,sí,,A
+H-01233,T-210,20/05/2026,Presión de aire baja,0.43,sí,,B
+H-01234,T-166,19/05/2026,Presión de aire baja,87,sí,,A
+H-01235,T-112,21/05/2026,Presión de aire baja,35,sí,,A
+H-01236,T-155,18/05/2026,Presión de aire baja,28,sí,,A
+H-01237,T-161,20/05/2026,PRESION DE AIRE BAJA,57,sí,,A
+H-01238,T-143,22/05/2026,Presión de aire baja,81,sí,,A
+H-01239,T-207,19/05/2026,Temperatura de refrigerante alta,0.77,no,,B
+H-01240,T-150,18/05/2026,Temperatura de refrigerante alta,51,no,,A
+H-01241,T-182,2026-05-18,Temperatura de refrigerante alta,0.24,no,,B
+H-01242,T-231,20/05/2026,Temperatura de refrigerante alta,0.1,no,,B
+H-01243,T-232,18/05/2026,Presión de aceite baja,0.66,sí,,B
+H-01244,T-229,22/05/2026,Presión de aceite baja,0.43,sí,,B
+H-01245,T-237,18/05/2026,Presión de aceite baja,0.68,sí,,B
+H-01246,T-215,18/05/2026,Low oil pressure,0.26,sí,,B
+H-01247,T-158,20/05/2026,Voltaje de batería bajo,19,no,,A
+H-01248,T-102,20/05/2026,Voltaje de batería bajo,60,no,,A
+H-01249,T-236,24/05/2026,Voltaje de batería bajo,0.04,no,,B
+H-01250,T-174,18/05/2026,Voltaje de batería bajo,0.06,no,,B
+H-01251,T-165,22/05/2026,Voltaje de batería bajo,26,no,,A
+H-01252,T-172,2026-05-21,Voltaje de batería bajo,0.28,no,,B
+H-01253,T-110,23/05/2026,Voltaje de batería bajo,35,no,,A
+H-01254,T-150,24/05/2026,Voltaje de batería bajo,21,sí,,A
+H-01255,T-211,19/05/2026,VOLTAJE BATERIA BAJO,0.22,no,,B
+H-01256,T-222,20/05/2026,FILTRO PARTICULAS SATURADO,0.6,no,,B
+H-01257,T-205,22/05/2026,Filtro de partículas saturado,0.41,no,,B
+H-01258,T-238,21/05/2026,Filtro de partículas saturado,0.31,no,,B
+H-01259,T-200,20/05/2026,Filtro de partículas saturado,0.37,no,,B
+H-01260,T-208,24/05/2026,Filtro de partículas saturado,0.11,sí,,B
+H-01261,T-181,22/05/2026,Filtro de partículas saturado,0.06,no,,B
+H-01262,T-129,18/05/2026,ABS sensor intermittent,13,no,,A
+H-01263,T-142,18/05/2026,Sensor ABS intermitente,43,no,,A
+H-01264,T-148,23/05/2026,Sensor ABS intermitente,11,no,,A
+H-01265,T-147,18/05/2026,Sensor ABS intermitente,5,no,,A
+H-01266,T-108,21/05/2026,Sensor ABS intermitente,21,no,,A
+H-01267,T-184,19/05/2026,Sensor ABS intermitente,0.19,sí,,B
+H-01268,T-153,19/05/2026,Sensor ABS intermitente,34,sí,,A
+H-01269,T-202,18/05/2026,Sensor ABS intermitente,0.49,no,,B
+H-01270,T-134,19/05/2026,Sensor ABS intermitente,9,no,,A
+H-01271,T-237,21/05/2026,Sensor ABS intermitente,0.31,no,,B
+H-01272,T-236,23/05/2026,Sensor ABS intermitente,0.2,no,,B
+H-01273,T-184,23/05/2026,Sensor ABS intermitente,0.28,sí,,B
+H-01274,T-177,23/05/2026,ABS intermitente,0.32,sí,,B
+H-01275,T-127,21/05/2026,Sensor ABS intermitente,22,sí,,A
+H-01276,T-133,21/05/2026,Sensor ABS intermitente,21,no,,A
+H-01277,T-235,18/05/2026,Desgaste de balatas,,sí,,B
+H-01278,T-110,19/05/2026,Desgaste de balatas,75,sí,,A
+H-01279,T-174,21/05/2026,Desgaste de balatas,0.75,sí,,B
+H-01280,T-149,24/05/2026,Desgaste de balatas,80,sí,,A
+H-01281,T-107,23/05/2026,Falla de comunicación CAN,11,no,,A
+H-01282,T-228,19/05/2026,Falla de comunicación CAN,0.09,no,,B
+H-01283,T-206,20/05/2026,Falla de comunicación CAN,0.09,sí,,B
+H-01284,T-238,21/05/2026,Falla de comunicación CAN,,no,,B
+H-01285,T-133,23/05/2026,Falla de comunicación CAN,51,sí,,A
+H-01286,T-229,24/05/2026,Falla de comunicación CAN,0.08,no,,B
+H-01287,T-204,18/05/2026,Falla de comunicación CAN,0.2,no,,B
+H-01288,T-195,21/05/2026,Falla de comunicación CAN,,sí,,B
+H-01289,T-157,21/05/2026,Falla de comunicación CAN,16,sí,,A
+H-01290,T-170,31/05/2026,Presión de aire baja,28,sí,,A
+H-01291,T-121,26/05/2026,Presión de aire baja,,sí,,A
+H-01292,T-135,28/05/2026,Presión de aire baja,82,sí,,A
+H-01293,T-224,29/05/2026,Temperatura de refrigerante alta,0.6,sí,,B
+H-01294,T-110,29/05/2026,Temperatura de refrigerante alta,55,no,,A
+H-01295,T-238,31/05/2026,TEMP REFRIGERANTE ALTA,0.56,no,,B
+H-01296,T-224,30/05/2026,TEMP REFRIGERANTE ALTA,0.2,sí,,B
+H-01297,T-130,26/05/2026,Voltaje de batería bajo,26,sí,,A
+H-01298,T-166,29/05/2026,Voltaje de batería bajo,15,sí,,A
+H-01299,T-151,25/05/2026,Low battery voltage,10,sí,,A
+H-01300,T-152,25/05/2026,Low battery voltage,33,no,,A
+H-01301,T-134,26/05/2026,Voltaje de batería bajo,27,sí,,A
+H-01302,T-200,31/05/2026,VOLTAJE BATERIA BAJO,0.26,sí,,B
+H-01303,T-214,26/05/2026,Voltaje de batería bajo,0.17,no,,B
+H-01304,T-153,28/05/2026,Voltaje de batería bajo,28,sí,,A
+H-01305,T-119,28/05/2026,Voltaje de batería bajo,11,no,,A
+H-01306,T-114,28/05/2026,FILTRO PARTICULAS SATURADO,58,no,,A
+H-01307,T-166,25/05/2026,Filtro de partículas saturado,29,no,,A
+H-01308,T-147,28/05/2026,Filtro de partículas saturado,66,sí,,A
+H-01309,T-143,2026-05-27,Filtro de partículas saturado,24,no,,A
+H-01310,T-165,26/05/2026,Filtro de partículas saturado,75,no,,A
+H-01311,T-219,29/05/2026,Filtro de partículas saturado,,no,,B
+H-01312,T-178,31/05/2026,Filtro de partículas saturado,0.34,no,,B
+H-01313,T-193,30/05/2026,Filtro de partículas saturado,0.14,no,,B
+H-01314,T-169,31/05/2026,Sensor ABS intermitente,3,no,,A
+H-01315,T-132,29/05/2026,Sensor ABS intermitente,30,no,,A
+H-01316,T-171,30/05/2026,Sensor ABS intermitente,0.09,sí,,B
+H-01317,T-136,28/05/2026,Sensor ABS intermitente,,no,,A
+H-01318,T-159,31/05/2026,Sensor ABS intermitente,31,no,,A
+H-01319,T-233,27/05/2026,ABS sensor intermittent,0.13,sí,,B
+H-01320,T-168,29/05/2026,Sensor ABS intermitente,,no,,A
+H-01321,T-155,29/05/2026,Sensor ABS intermitente,34,no,,A
+H-01322,T-163,26/05/2026,Sensor ABS intermitente,28,sí,,A
+H-01323,T-107,26/05/2026,Sensor ABS intermitente,,sí,,A
+H-01324,T-235,29/05/2026,Sensor ABS intermitente,0.04,sí,,B
+H-01325,T-232,31/05/2026,Sensor ABS intermitente,0.12,no,,B
+H-01326,T-195,29/05/2026,Sensor ABS intermitente,0.04,no,,B
+H-01327,T-139,30/05/2026,Sensor ABS intermitente,15,no,,A
+H-01328,T-180,27/05/2026,Sensor ABS intermitente,0.19,no,,B
+H-01329,T-135,30/05/2026,Sensor ABS intermitente,43,sí,,A
+H-01330,T-189,28/05/2026,Sensor ABS intermitente,0.51,no,,B
+H-01331,T-123,30/05/2026,Sensor ABS intermitente,11,sí,,A
+H-01332,T-171,25/05/2026,Desgaste de balatas,0.11,sí,,B
+H-01333,T-224,26/05/2026,Falla de comunicación CAN,0.17,sí,,B
+H-01334,T-207,30/05/2026,Falla de comunicación CAN,0.2,sí,,B
+H-01335,T-147,28/05/2026,Falla de comunicación CAN,3,no,,A
+H-01336,T-179,31/05/2026,Falla de comunicación CAN,,no,,B
+H-01337,T-138,27/05/2026,CAN communication fault,3,no,,A
+H-01338,T-144,25/05/2026,Falla de comunicación CAN,2,no,,A
+H-01339,T-196,27/05/2026,Falla de comunicación CAN,,sí,,B
+H-01340,T-186,25/05/2026,Falla de comunicación CAN,0.41,no,,B
+H-01341,T-138,26/05/2026,Falla de comunicación CAN,11,no,,A
+H-01342,T-164,2026-05-25,Falla de comunicación CAN,8,no,,A
+H-01343,T-141,31/05/2026,Falla de comunicación CAN,,no,,A
+H-01110,T-157,10/05/2026,Voltaje de batería bajo,15,no,,A
+H-01099,T-223,06/05/2026,Temperatura de refrigerante alta,0.53,no,,B
+H-00863,T-103,07/04/2026,Voltaje de batería bajo,4,no,no,A
+H-00921,T-163,17/04/2026,Temperatura de refrigerante alta,79,no,no,A
+H-01212,T-171,11/05/2026,Sensor ABS intermitente,0.03,no,,B
+H-00054,T-238,16/01/2026,Presión de aire baja,40,sí,no,B
+H-00508,T-126,23/02/2026,Falla de comunicación CAN,5,no,no,A
+H-01098,T-222,07/05/2026,Temperatura de refrigerante alta,0.7,sí,,B
+H-00531,T-210,08/03/2026,Presión de aire baja,34,sí,no,B
+H-00454,T-159,19/02/2026,Falla de comunicación CAN,15,sí,no,A
+H-01293,T-224,29/05/2026,Temperatura de refrigerante alta,0.6,sí,,B
+H-00403,T-114,19/02/2026,Presión de aceite baja,57,sí,no,A
+H-00987,T-195,22/04/2026,Temperatura de refrigerante alta,0.25,no,no,B
+H-00337,T-203,09/02/2026,Voltaje de batería bajo,10,sí,no,B
+H-00779,T-108,29/03/2026,Falla de comunicación CAN,24,sí,no,A
+H-00381,T-202,13/02/2026,Falla de comunicación CAN,10,no,no,B
+H-00932,T-115,15/04/2026,Voltaje de batería bajo,17,sí,no,A
+H-00289,T-209,02/02/2026,Sensor ABS intermitente,21,no,no,B
+H-00699,T-191,20/03/2026,Sensor ABS intermitente,0.33,no,sí,B
+H-01174,T-219,16/05/2026,Presión de aceite baja,0.58,sí,,B
+H-00966,T-234,18/04/2026,Falla de comunicación CAN,0.13,sí,no,B
+H-00666,T-195,19/03/2026,Temperatura de refrigerante alta,0.14,no,no,B
+H-00087,T-167,12/01/2026,Voltaje de batería bajo,33,sí,no,A
+H-00127,T-224,22/01/2026,Presión de aire baja,53,sí,no,B
+H-01281,T-107,23/05/2026,Falla de comunicación CAN,11,no,,A
+H-01222,T-147,11/05/2026,Desgaste de balatas,21,sí,,A
+H-01221,T-219,13/05/2026,Sensor ABS intermitente,0.09,no,,B
+H-01154,T-239,05/05/2026,Falla de comunicación CAN,0.23,no,,B
+H-00444,T-159,18/02/2026,Falla de comunicación CAN,7,no,no,A
+H-01169,T-174,17/05/2026,Temperatura de refrigerante alta,0.23,no,,B
+H-00859,T-107,08/04/2026,Voltaje de batería bajo,33,no,no,A
+H-00535,T-146,08/03/2026,Temperatura de refrigerante alta,22,no,no,A
+H-00262,T-119,08/02/2026,Presión de aceite baja,60,sí,no,A
+H-00047,T-210,05/01/2026,Falla de comunicación CAN,35,no,no,B
+H-00569,T-204,03/03/2026,Sensor ABS intermitente,38,no,no,B
+H-00458,T-142,01/03/2026,Presión de aire baja,52,sí,no,A
+H-00034,T-130,09/01/2026,Sensor ABS intermitente,9,no,no,A
+H-01303,T-214,26/05/2026,Voltaje de batería bajo,0.17,no,,B
+H-00026,T-150,06/01/2026,Filtro de partículas saturado,26,sí,no,A
+H-00285,T-203,08/02/2026,Sensor ABS intermitente,14,no,no,B
