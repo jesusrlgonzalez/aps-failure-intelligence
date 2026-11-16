@@ -1,0 +1,31 @@
+{
+ "piloto": "P01",
+ "nivel": "A",
+ "comando": "PYTHONPATH=src python -B -m aps_intel.pilot_p01",
+ "python": "3.13",
+ "pandas": "2.3.3",
+ "numpy": "2.2.6",
+ "codigo": {
+  "src/aps_intel/pilot_p01.py": "c75ae605e302b17337e628f1e918fbb1378c57d4adcaad6873ccca809cfe10f4",
+  "src/aps_intel/alert_intake.py": "fdc1b17cb39dd1a83e1bfbecc666f572a602439ffd9d9cd76b3f45c453061731",
+  "src/aps_intel/alert_calibrator.py": "3aa7ea2b841dee7fe12407ee84a29a054b7789f1b30d3d90deb16c28e62490b9",
+  "src/aps_intel/monitor.py": "b67ec1a5ac821f648b643b026cd9b5bae7e60a9efe8ac0119d3ced6ca7557460",
+  "src/aps_intel/cost.py": "92e78ec993e7f0d9b7c497930df8762bcbf9990388583f500319aafcff619003"
+ },
+ "salidas": {
+  "decisions.csv": "53f2ca5a02e37f10677e4b79ab14003bbf6154ea19927172d58ae667807deef1",
+  "manifest.json": "34c75d8597f0f05c26557b4aa179d16edcd589c31ee23407722e1ccf93020751",
+  "raw_export_history.csv": "a1f7cfb130b64a712b0827077a9a82b0cc6f37e6b8d288169e2edfcaf10d5f40",
+  "results.json": "4ff9af8a88b21fd7f1908d66fba1792ab164a33c16f3b5ea041235c0bf83ccd7",
+  "sensitivity.csv": "feb2a8c6f610243927d5f1899b0ad8a36c2a539140669c5f520a2bbbcf4405b4"
+ },
+ "criterios": {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true,
+  "C5": true,
+  "C6": true,
+  "C7": true
+ }
+}
