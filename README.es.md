@@ -29,6 +29,8 @@ Las 170 lecturas de Scania son internas del fabricante; el producto es el **mét
 
 En la flota simulada de ejemplo (140 tractocamiones, 26 semanas), la regla elegida con las primeras 17 semanas habría costado **476 mil pesos menos** que la práctica actual en las últimas 9 (intervalo del 90 %: 206 a 724 mil), con 9 fallas en ruta en lugar de 23. El archivo se procesa en el navegador y no sale de él. Protocolo de piloto y criterios de abandono: [`docs/MVP_PILOTO.md`](docs/MVP_PILOTO.md).
 
+**Caso demostrativo P01 (Nivel A, empresa ficticia, datos sintéticos, sin piloto real):** triaje semanal con cupo estricto de taller a partir de una exportación con siete tipos de defectos de datos, con revisión humana, reglas de suspensión, tres escenarios y sensibilidad a costos, capacidad y calidad del puntaje. Dictamen: aprobado con reservas (autoevaluación). [`docs/pilots/P01/`](docs/pilots/P01/README.md).
+
 ## Por qué el resultado es confiable
 
 - **Una sola mirada al test.** Está sellado en código (`load_holdout` falla salvo en la evaluación final) y un archivo de reserva impide una segunda evaluación. Las reglas de esa evaluación y el plan de análisis se publicaron **antes** de ejecutarla.
