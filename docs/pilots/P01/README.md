@@ -1,6 +1,6 @@
 # Piloto P01 · Triaje semanal de alertas con taller limitado
 
-**Versión `P01-v1.0.0` · Nivel A (demostración operativa reproducible) · empresa ficticia · datos sintéticos · sin piloto real.**
+**Versión `P01-v1.0.0` (release del repositorio `v1.4.1`) · Nivel A (demostración operativa reproducible) · empresa ficticia · datos sintéticos · sin piloto real.**
 
 Capa operativa sobre el método ya validado del proyecto: el calibrador de alertas por costo del MVP. No modifica ni reevalúa el modelo de Scania.
 
