@@ -33,13 +33,7 @@ jobs:
           PY
       - name: Evidence bundle from the tagged commit
         run: |
-          keep=()
-          while IFS= read -r p; do
-            [ -z "$p" ] && continue
-            git cat-file -e "$TAG:$p" 2>/dev/null && keep+=("$p")
-          done < deploy/release-assets.txt
-          git cat-file -e "$TAG:LICENSE" 2>/dev/null && keep+=("LICENSE")
-          git archive --format=zip -o "evidence-${TAG}.zip" "$TAG" -- "${keep[@]}"
+          bash deploy/build_release_bundle.sh "$TAG" "evidence-${TAG}.zip"
           unzip -l "evidence-${TAG}.zip" | tail -1
       - name: Create or update the release
         run: |
