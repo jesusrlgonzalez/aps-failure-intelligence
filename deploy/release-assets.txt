@@ -4,3 +4,15 @@ reports/analysis/analysis.json
 reports/stress
 reports/calibration
 reports/figures
+# Demonstration case P01 (level A, synthetic): dossier, outputs with SHA-256 evidence,
+# and everything needed to regenerate them (code, test, dependencies).
+docs/pilots/P01
+reports/pilots/P01
+src/aps_intel
+tests/test_pilot_p01.py
+tests/test_release_bundle.py
+deploy/build_release_bundle.sh
+pyproject.toml
+requirements.txt
+requirements-dev.txt
+CHANGELOG.md
