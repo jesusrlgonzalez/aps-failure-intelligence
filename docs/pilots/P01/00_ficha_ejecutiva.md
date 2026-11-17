@@ -26,6 +26,6 @@
 - El sistema no comprueba por sí mismo que el puntaje aporte información.
 - Frente a la regla sencilla por tipo, la ventaja solo se distingue con el taller saturado.
 
-**Dictamen:** demostración aprobada con reservas (autoevaluación). Detalle en [04_dictamen.md](04_dictamen.md).
+**Dictamen:** demostración aprobada con reservas, exclusivamente en Nivel A (autoevaluación). No es certificación independiente, validación en flota real ni autorización de uso industrial. Publicado en el release `v1.4.0`. Reservas en seguimiento: incidencias #9–#12. Detalle en [04_dictamen.md](04_dictamen.md).
 
 **Evidencia científica, aparte.** El modelo de Scania se evaluó una sola vez en 16,000 camiones del conjunto oficial: costo 11,540 frente a 187,500 sin triaje, en unidades del reto IDA 2016 ([docs/06](../../06_final_evaluation.md)). Ese resultado no se atribuye a este escenario.
