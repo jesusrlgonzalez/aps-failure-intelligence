@@ -11,6 +11,7 @@ reports/pilots/P01
 src/aps_intel
 tests/test_pilot_p01.py
 tests/test_release_bundle.py
+tests/test_release_identity.py
 deploy/build_release_bundle.sh
 pyproject.toml
 requirements.txt

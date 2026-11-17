@@ -2,6 +2,21 @@
 
 All notable changes follow [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Semantic Versioning](https://semver.org/).
 
+## [1.4.1] - 2026-11-17
+
+Documentation-only correction of the P01 dossier released in 1.4.0. No code, results or evidence change.
+
+### Changed
+- `docs/pilots/P01/04_dictamen.md` now records:
+  - the owner's formal acceptance of P01 (level A, approved with reservations; not an independent audit, an industrial certification, or an authorization to act on real vehicles);
+  - gate G6 with its publication record;
+  - reservations R1–R5 tracked in issues #9–#12;
+  - the version history of the dossier.
+- Package version fields (`pyproject.toml`, `aps_intel.__version__`, `CITATION.cff`) now say `1.4.1`. The `v1.4.0` tag still carries `1.3.0` in those fields; the tag is not modified.
+
+### Unchanged
+- P01 code, outputs and `evidence.json`; frozen Scania results, model and test-set evaluation.
+
 ## [1.4.0] - 2026-11-16
 
 ### Added
