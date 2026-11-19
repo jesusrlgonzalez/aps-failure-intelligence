@@ -2,6 +2,13 @@
 
 All notable changes follow [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Security
+- Browser demo (Hugging Face Space): the Python requirements are pinned (`altair==6.0.0`, `scipy==1.14.1`, `openpyxl==3.1.5`, `et-xmlfile==2.0.0`), so the code that runs next to an uploaded file no longer changes between visits.
+- The demo page sets a Content-Security-Policy whose `connect-src` only allows the page itself, jsDelivr and PyPI; it also applies to the Pyodide worker.
+- «Tus alertas» shows a data-use notice naming the third parties that receive the visitor's IP address (jsDelivr, PyPI, Google Fonts).
+
 ## [1.4.1] - 2026-11-17
 
 Documentation-only correction of the P01 dossier released in 1.4.0. No code, results or evidence change.
