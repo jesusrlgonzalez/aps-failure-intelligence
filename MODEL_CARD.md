@@ -41,6 +41,7 @@ Reference (IDA 2016 challenge cost units, not currency): no triage 187,500; chec
 - Forecasting when a failure will occur (the data has no time axis).
 - Causal interpretation of the anonymised readings.
 - Monetary savings for a real fleet; costs are abstract challenge units.
+- Evidence from an operating fleet: the data is Scania's public 2016 benchmark; the demo's fleet retrospective is simulated.
 - Other vehicle makes, sensors or periods without new validation.
 
 ## Limitations and risks
@@ -48,6 +49,7 @@ Reference (IDA 2016 challenge cost units, not currency): no triage 187,500; chec
 - **Calibration:** raw scores between 0.001 and 0.5 under-state risk. Use `calibrated_risk` (isotonic, [docs/10](docs/10_calibration.md)) when a probability is needed; above 0.2 treat it as "high", not a precise value.
 - **Seed sensitivity:** training CV cost ranges 33,220–38,480 across model seeds; the single test result carries that uncertainty.
 - **Monitoring blind spots:** duplicates and label noise do not change the inputs and are not caught by `/monitor` ([docs/09](docs/09_stress_test_and_monitoring.md)).
+- **Check-cost sensitivity:** with the check cost from ×0.8 to ×3 (miss cost fixed), the threshold chosen on training data is unchanged up to ×1.5 and the saving against no triage stays 90.7–94.7 %; re-choosing the threshold is not demonstrably better than keeping it ([reports/sensitivity](reports/sensitivity/sensitivity.json)).
 - **Missed failures** (16) look like healthy trucks to the model; they need a different signal, not a different threshold.
 - **Prevalence shift:** the test set has a higher failure rate than training; another fleet may differ again.
 - **Pickle risk:** load the joblib file only from a trusted checkout ([SECURITY.md](SECURITY.md)).
