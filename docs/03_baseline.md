@@ -27,3 +27,17 @@ Reproduce with `PYTHONPATH=src python -B -m aps_intel.baseline` → [baseline.js
 - **The baseline already cuts cost by about 90 %** against the best trivial policy. It misses 71 APS failures (35,500 of its cost) and sends 1,660 trucks to unnecessary checks (16,600).
 - **The theoretical threshold fails here**, because `class_weight="balanced"` inflates probabilities. A threshold learned from data is therefore required, and calibration is examined in phase 7.
 - **Fold costs vary by about ±20 %.** Differences between candidates smaller than that spread are not meaningful.
+
+## Reproducibility across processors
+
+The published logistic-regression cost, **52,100**, is the historical result stored in `baseline.json`; it is kept unchanged. With the same code, data and pinned versions (Python 3.13.7, numpy 2.2.6, scikit-learn 1.7.1), the solver's result depends on the OpenBLAS kernel chosen for the processor. Re-running phase 3 on 20 Nov 2026 with the kernel forced through `OPENBLAS_CORETYPE` gave:
+
+| OpenBLAS kernel | Logistic-regression CV cost | Unnecessary checks |
+|---|---:|---:|
+| Haswell | 49,550 | 1,705 |
+| Prescott | 51,680 | 1,668 |
+| Sandybridge | 52,850 | 1,735 |
+| Automatic (Intel Xeon 2.10 GHz) | 52,950 | 1,745 |
+| Published | 52,100 | 1,660 |
+
+**Observed range: 49,550 to 52,950.** Only this comparator moves. The selected model, its threshold, its hash and the official test cost (11,540) were byte-identical in two full re-runs, and every observed value stays far above the selected model's CV cost (34,600), so no decision changes.

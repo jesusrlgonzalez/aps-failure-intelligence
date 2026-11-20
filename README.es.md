@@ -65,7 +65,7 @@ En la flota simulada de ejemplo (140 tractocamiones, 26 semanas), la regla elegi
 |---|---|
 | 1 · Ingesta y auditoría | 60,000 camiones, 1.7 % de fallas; los faltantes son informativos |
 | 2 · Contrato del problema | El costo oficial es la única métrica de selección |
-| 3 · Baseline y protocolo | Regresión logística 52,100 frente a 500,000 trivial (CV de entrenamiento) |
+| 3 · Baseline y protocolo | Regresión logística 52,100 frente a 500,000 trivial (CV de entrenamiento; 49,550–52,950 en otros procesadores, [por qué](docs/03_baseline.md#reproducibility-across-processors)) |
 | 4 · Candidatos | LightGBM + indicadores de faltantes, 34,600 |
 | 5 · Tuning controlado | 34,440; dispersión por semilla 33,220 – 38,480 |
 | 6 · Evaluación final única | 11,540 en el test oficial |
