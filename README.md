@@ -9,6 +9,8 @@
 
 **Question.** Which trucks should go to the workshop for an Air Pressure System (APS) check, when a missed APS failure costs 500 and an unnecessary check costs 10? These are the official costs published by Scania with the data.
 
+**Scope.** Scania's public APS dataset (UCI, 2016): the result is a benchmark on public data, not a trial on an operating fleet, and costs are abstract challenge units, not money. The weekly fleet retrospective in the demo uses a **simulated** fleet. No model runs at a customer.
+
 **Answer, on Scania's official test set (16,000 trucks, evaluated once):**
 
 | | Result |
@@ -17,9 +19,27 @@
 | Failures caught | 359 of 375 (**95.7 %** recall) |
 | Workshop load | **44.6 checks per 1,000 trucks**; one in two checks finds a real failure |
 | Published reference | IDA 2016 challenge top three: 9,920 / 10,900 / 11,480. Same range; the interval cannot separate them |
-| Robustness | Saves 88–96 % against no triage for any miss-to-check cost ratio from 10 : 1 to 100 : 1 |
+| Robustness | Saves 88–96 % against no triage for any miss-to-check cost ratio from 10 : 1 to 100 : 1; 90.7–94.7 % when only the check cost moves from ×0.8 to ×3 ([below](#sensitivity-to-the-cost-of-a-check)) |
 
 ![Cost vs threshold](reports/figures/cost_vs_threshold.png)
+
+## Sensitivity to the cost of a check
+
+What if an unnecessary workshop check costs more than 10? Only that cost changes; a missed failure stays at 500. Each threshold is chosen on training out-of-fold scores, and the official test set only reports the consequences (`python -B -m aps_intel.sensitivity`, [report](reports/sensitivity/sensitivity.json)). Units are IDA 2016 challenge cost units, not money.
+
+| Check cost | Threshold (chosen on training) | Checks / 1,000 | Unnecessary checks | Missed failures | Cost | vs no triage | Re-chosen − fixed threshold, 95 % |
+|---|---:|---:|---:|---:|---:|---:|---|
+| 8 (×0.8) | 0.00115 | 46.0 | 375 | 14 | 10,000 | −94.7 % | −2,372 to +200 |
+| **10 (official)** | **0.00136** | **44.6** | **354** | **16** | **11,540** | **−93.8 %** | same rule |
+| 12 (×1.2) | 0.00136 | 44.6 | 354 | 16 | 12,248 | −93.5 % | same rule |
+| 15 (×1.5) | 0.00136 | 44.6 | 354 | 16 | 13,310 | −92.9 % | same rule |
+| 20 (×2) | 0.00298 | 38.6 | 261 | 19 | 14,720 | −92.1 % | −1,900 to +1,580 |
+| 30 (×3) | 0.00429 | 35.4 | 213 | 22 | 17,390 | −90.7 % | −3,470 to +1,420 |
+
+- **The rule is stable.** From 10 to 15 the chosen threshold does not change; from 20 it rises and the workshop load falls, as expected.
+- **Re-choosing the threshold is not demonstrably better** than keeping the official one: every 95 % interval of the difference includes zero.
+- **When it stops paying.** The official threshold only costs as much as checking no truck if a check costs about 35 times more (348 per check, on training data).
+- **Workshop capacity** (illustrative): with room for 30 checks per 1,000 trucks the cost rises to 13,130 (22 missed failures); with 20, to 23,300 (45 missed).
 
 ## Use it with your fleet's alerts (MVP)
 

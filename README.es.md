@@ -6,6 +6,8 @@
 
 **Pregunta.** ¿Qué camiones deben ir al taller a revisar el sistema de presión de aire (APS), si una falla no detectada cuesta 500 y una revisión innecesaria cuesta 10? Son los costos oficiales que Scania publicó con los datos.
 
+**Alcance.** Conjunto de datos público APS de Scania (UCI, 2016): el resultado es una comparación con datos públicos, no una prueba en una flota en operación, y los costos son unidades abstractas del reto, no dinero. La retrospectiva semanal de la demo usa una flota **simulada**. Ningún modelo opera en un cliente.
+
 **Respuesta, en el conjunto de prueba oficial de Scania (16,000 camiones, evaluado una sola vez):**
 
 | | Resultado |
@@ -14,9 +16,27 @@
 | Fallas detectadas | 359 de 375 (**95.7 %**) |
 | Carga de taller | **44.6 revisiones por cada 1,000 camiones**; una de cada dos encuentra una falla real |
 | Referencia publicada | Tres primeros del reto IDA 2016: 9,920 / 10,900 / 11,480. Mismo rango; el intervalo no permite separarlos |
-| Robustez | Ahorra 88–96 % frente a no hacer triaje con cualquier razón de costos entre 10 : 1 y 100 : 1 |
+| Robustez | Ahorra 88–96 % frente a no hacer triaje con cualquier razón de costos entre 10 : 1 y 100 : 1; 90.7–94.7 % si solo cambia el costo de revisión de ×0.8 a ×3 ([abajo](#sensibilidad-al-costo-de-una-revisión)) |
 
 ![Costo frente al umbral](reports/figures/cost_vs_threshold.png)
+
+## Sensibilidad al costo de una revisión
+
+¿Y si una revisión innecesaria cuesta más de 10? Solo cambia ese costo; una falla no detectada sigue en 500. Cada umbral se elige con los puntajes fuera de pliegue del entrenamiento, y el conjunto de prueba oficial solo informa las consecuencias (`python -B -m aps_intel.sensitivity`, [reporte](reports/sensitivity/sensitivity.json)). Unidades de costo del reto IDA 2016, no dinero.
+
+| Costo de revisión | Umbral (elegido en entrenamiento) | Revisiones / 1,000 | Revisiones innecesarias | Fallas no detectadas | Costo | vs sin triaje | Umbral re-elegido − fijo, 95 % |
+|---|---:|---:|---:|---:|---:|---:|---|
+| 8 (×0.8) | 0.00115 | 46.0 | 375 | 14 | 10,000 | −94.7 % | −2,372 a +200 |
+| **10 (oficial)** | **0.00136** | **44.6** | **354** | **16** | **11,540** | **−93.8 %** | misma regla |
+| 12 (×1.2) | 0.00136 | 44.6 | 354 | 16 | 12,248 | −93.5 % | misma regla |
+| 15 (×1.5) | 0.00136 | 44.6 | 354 | 16 | 13,310 | −92.9 % | misma regla |
+| 20 (×2) | 0.00298 | 38.6 | 261 | 19 | 14,720 | −92.1 % | −1,900 a +1,580 |
+| 30 (×3) | 0.00429 | 35.4 | 213 | 22 | 17,390 | −90.7 % | −3,470 a +1,420 |
+
+- **La regla es estable.** Entre 10 y 15 el umbral elegido no cambia; desde 20 sube y la carga de taller baja, como se espera.
+- **Re-elegir el umbral no es demostrablemente mejor** que mantener el oficial: todos los intervalos al 95 % de la diferencia incluyen el cero.
+- **Cuándo deja de convenir.** El umbral oficial solo costaría lo mismo que no revisar ningún camión si una revisión costara unas 35 veces más (348 por revisión, en datos de entrenamiento).
+- **Capacidad de taller** (supuesto ilustrativo): con espacio para 30 revisiones por cada 1,000 camiones, el costo sube a 13,130 (22 fallas no detectadas); con 20, a 23,300 (45).
 
 ## Úsalo con las alertas de tu flota (MVP)
 

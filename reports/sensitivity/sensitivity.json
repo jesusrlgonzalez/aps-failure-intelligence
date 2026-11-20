@@ -1,0 +1,885 @@
+{
+  "units": "IDA 2016 challenge cost units (not currency; not a saving measured at a company)",
+  "scope": "Only the cost of an unnecessary check varies; thresholds and the best policy are chosen on training out-of-fold scores; the official test set (already evaluated once) only reports consequences. Capacities are illustrative assumptions.",
+  "n_development": 60000,
+  "n_test": 16000,
+  "scenarios": [
+    {
+      "factor": 0.8,
+      "cost_check": 8.0,
+      "cost_missed_failure": 500,
+      "ratio_missed_to_check": 62.5,
+      "threshold_reoptimized": 0.0011524497,
+      "threshold_fixed": 0.001362310330346284,
+      "best_policy_on_development": "reoptimized_on_oof",
+      "development": {
+        "flag_none": {
+          "cost": 500000.0,
+          "checks_per_1000": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1000,
+          "tn": 59000
+        },
+        "flag_all": {
+          "cost": 472000.0,
+          "checks_per_1000": 1000.0,
+          "recall": 1.0,
+          "tp": 1000,
+          "fp": 59000,
+          "fn": 0,
+          "tn": 0
+        },
+        "fixed_official_threshold": {
+          "cost": 31516.0,
+          "checks_per_1000": 38.93,
+          "recall": 0.959,
+          "tp": 959,
+          "fp": 1377,
+          "fn": 41,
+          "tn": 57623
+        },
+        "reoptimized_on_oof": {
+          "cost": 30832.0,
+          "checks_per_1000": 40.68,
+          "recall": 0.962,
+          "tp": 962,
+          "fp": 1479,
+          "fn": 38,
+          "tn": 57521
+        }
+      },
+      "test": {
+        "flag_none": {
+          "cost": 187500.0,
+          "checks_per_1000": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 375,
+          "tn": 15625
+        },
+        "flag_all": {
+          "cost": 125000.0,
+          "checks_per_1000": 1000.0,
+          "recall": 1.0,
+          "tp": 375,
+          "fp": 15625,
+          "fn": 0,
+          "tn": 0
+        },
+        "fixed_official_threshold": {
+          "cost": 10832.0,
+          "checks_per_1000": 44.56,
+          "recall": 0.9573,
+          "tp": 359,
+          "fp": 354,
+          "fn": 16,
+          "tn": 15271
+        },
+        "reoptimized_on_oof": {
+          "cost": 10000.0,
+          "checks_per_1000": 46.0,
+          "recall": 0.9627,
+          "tp": 361,
+          "fp": 375,
+          "fn": 14,
+          "tn": 15250
+        }
+      },
+      "test_saving_vs_flag_none_pct": 94.7,
+      "test_diff_reoptimized_minus_fixed_95": [
+        -2372.0,
+        200.0
+      ],
+      "test_diff_reoptimized_minus_none_95": [
+        -194981.4,
+        -159351.8
+      ],
+      "capacity": [
+        {
+          "capacity_per_1000": 20,
+          "binding": true,
+          "threshold": 0.038203689671999864,
+          "development": {
+            "cost": 68148.0,
+            "checks_per_1000": 20.0,
+            "recall": 0.869,
+            "tp": 869,
+            "fp": 331,
+            "fn": 131,
+            "tn": 58669
+          },
+          "test": {
+            "cost": 23140.0,
+            "checks_per_1000": 25.62,
+            "recall": 0.88,
+            "tp": 330,
+            "fp": 80,
+            "fn": 45,
+            "tn": 15545
+          }
+        },
+        {
+          "capacity_per_1000": 30,
+          "binding": true,
+          "threshold": 0.004387745461999993,
+          "development": {
+            "cost": 38404.0,
+            "checks_per_1000": 30.0,
+            "recall": 0.937,
+            "tp": 937,
+            "fp": 863,
+            "fn": 63,
+            "tn": 58137
+          },
+          "test": {
+            "cost": 12704.0,
+            "checks_per_1000": 35.38,
+            "recall": 0.9413,
+            "tp": 353,
+            "fp": 213,
+            "fn": 22,
+            "tn": 15412
+          }
+        },
+        {
+          "capacity_per_1000": 45,
+          "binding": false
+        }
+      ]
+    },
+    {
+      "factor": 1.0,
+      "cost_check": 10.0,
+      "cost_missed_failure": 500,
+      "ratio_missed_to_check": 50.0,
+      "threshold_reoptimized": 0.0013623103,
+      "threshold_fixed": 0.001362310330346284,
+      "best_policy_on_development": "reoptimized_on_oof",
+      "development": {
+        "flag_none": {
+          "cost": 500000.0,
+          "checks_per_1000": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1000,
+          "tn": 59000
+        },
+        "flag_all": {
+          "cost": 590000.0,
+          "checks_per_1000": 1000.0,
+          "recall": 1.0,
+          "tp": 1000,
+          "fp": 59000,
+          "fn": 0,
+          "tn": 0
+        },
+        "fixed_official_threshold": {
+          "cost": 34270.0,
+          "checks_per_1000": 38.93,
+          "recall": 0.959,
+          "tp": 959,
+          "fp": 1377,
+          "fn": 41,
+          "tn": 57623
+        },
+        "reoptimized_on_oof": {
+          "cost": 33770.0,
+          "checks_per_1000": 38.95,
+          "recall": 0.96,
+          "tp": 960,
+          "fp": 1377,
+          "fn": 40,
+          "tn": 57623
+        }
+      },
+      "test": {
+        "flag_none": {
+          "cost": 187500.0,
+          "checks_per_1000": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 375,
+          "tn": 15625
+        },
+        "flag_all": {
+          "cost": 156250.0,
+          "checks_per_1000": 1000.0,
+          "recall": 1.0,
+          "tp": 375,
+          "fp": 15625,
+          "fn": 0,
+          "tn": 0
+        },
+        "fixed_official_threshold": {
+          "cost": 11540.0,
+          "checks_per_1000": 44.56,
+          "recall": 0.9573,
+          "tp": 359,
+          "fp": 354,
+          "fn": 16,
+          "tn": 15271
+        },
+        "reoptimized_on_oof": {
+          "cost": 11540.0,
+          "checks_per_1000": 44.56,
+          "recall": 0.9573,
+          "tp": 359,
+          "fp": 354,
+          "fn": 16,
+          "tn": 15271
+        }
+      },
+      "test_saving_vs_flag_none_pct": 93.8,
+      "test_diff_reoptimized_minus_fixed_95": [
+        0.0,
+        0.0
+      ],
+      "test_diff_reoptimized_minus_none_95": [
+        -192994.2,
+        -157599.8
+      ],
+      "capacity": [
+        {
+          "capacity_per_1000": 20,
+          "binding": true,
+          "threshold": 0.038203689671999864,
+          "development": {
+            "cost": 68810.0,
+            "checks_per_1000": 20.0,
+            "recall": 0.869,
+            "tp": 869,
+            "fp": 331,
+            "fn": 131,
+            "tn": 58669
+          },
+          "test": {
+            "cost": 23300.0,
+            "checks_per_1000": 25.62,
+            "recall": 0.88,
+            "tp": 330,
+            "fp": 80,
+            "fn": 45,
+            "tn": 15545
+          }
+        },
+        {
+          "capacity_per_1000": 30,
+          "binding": true,
+          "threshold": 0.004387745461999993,
+          "development": {
+            "cost": 40130.0,
+            "checks_per_1000": 30.0,
+            "recall": 0.937,
+            "tp": 937,
+            "fp": 863,
+            "fn": 63,
+            "tn": 58137
+          },
+          "test": {
+            "cost": 13130.0,
+            "checks_per_1000": 35.38,
+            "recall": 0.9413,
+            "tp": 353,
+            "fp": 213,
+            "fn": 22,
+            "tn": 15412
+          }
+        },
+        {
+          "capacity_per_1000": 45,
+          "binding": false
+        }
+      ]
+    },
+    {
+      "factor": 1.2,
+      "cost_check": 12.0,
+      "cost_missed_failure": 500,
+      "ratio_missed_to_check": 41.67,
+      "threshold_reoptimized": 0.0013623103,
+      "threshold_fixed": 0.001362310330346284,
+      "best_policy_on_development": "reoptimized_on_oof",
+      "development": {
+        "flag_none": {
+          "cost": 500000.0,
+          "checks_per_1000": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1000,
+          "tn": 59000
+        },
+        "flag_all": {
+          "cost": 708000.0,
+          "checks_per_1000": 1000.0,
+          "recall": 1.0,
+          "tp": 1000,
+          "fp": 59000,
+          "fn": 0,
+          "tn": 0
+        },
+        "fixed_official_threshold": {
+          "cost": 37024.0,
+          "checks_per_1000": 38.93,
+          "recall": 0.959,
+          "tp": 959,
+          "fp": 1377,
+          "fn": 41,
+          "tn": 57623
+        },
+        "reoptimized_on_oof": {
+          "cost": 36524.0,
+          "checks_per_1000": 38.95,
+          "recall": 0.96,
+          "tp": 960,
+          "fp": 1377,
+          "fn": 40,
+          "tn": 57623
+        }
+      },
+      "test": {
+        "flag_none": {
+          "cost": 187500.0,
+          "checks_per_1000": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 375,
+          "tn": 15625
+        },
+        "flag_all": {
+          "cost": 187500.0,
+          "checks_per_1000": 1000.0,
+          "recall": 1.0,
+          "tp": 375,
+          "fp": 15625,
+          "fn": 0,
+          "tn": 0
+        },
+        "fixed_official_threshold": {
+          "cost": 12248.0,
+          "checks_per_1000": 44.56,
+          "recall": 0.9573,
+          "tp": 359,
+          "fp": 354,
+          "fn": 16,
+          "tn": 15271
+        },
+        "reoptimized_on_oof": {
+          "cost": 12248.0,
+          "checks_per_1000": 44.56,
+          "recall": 0.9573,
+          "tp": 359,
+          "fp": 354,
+          "fn": 16,
+          "tn": 15271
+        }
+      },
+      "test_saving_vs_flag_none_pct": 93.5,
+      "test_diff_reoptimized_minus_fixed_95": [
+        0.0,
+        0.0
+      ],
+      "test_diff_reoptimized_minus_none_95": [
+        -192290.6,
+        -156907.0
+      ],
+      "capacity": [
+        {
+          "capacity_per_1000": 20,
+          "binding": true,
+          "threshold": 0.038203689671999864,
+          "development": {
+            "cost": 69472.0,
+            "checks_per_1000": 20.0,
+            "recall": 0.869,
+            "tp": 869,
+            "fp": 331,
+            "fn": 131,
+            "tn": 58669
+          },
+          "test": {
+            "cost": 23460.0,
+            "checks_per_1000": 25.62,
+            "recall": 0.88,
+            "tp": 330,
+            "fp": 80,
+            "fn": 45,
+            "tn": 15545
+          }
+        },
+        {
+          "capacity_per_1000": 30,
+          "binding": true,
+          "threshold": 0.004387745461999993,
+          "development": {
+            "cost": 41856.0,
+            "checks_per_1000": 30.0,
+            "recall": 0.937,
+            "tp": 937,
+            "fp": 863,
+            "fn": 63,
+            "tn": 58137
+          },
+          "test": {
+            "cost": 13556.0,
+            "checks_per_1000": 35.38,
+            "recall": 0.9413,
+            "tp": 353,
+            "fp": 213,
+            "fn": 22,
+            "tn": 15412
+          }
+        },
+        {
+          "capacity_per_1000": 45,
+          "binding": false
+        }
+      ]
+    },
+    {
+      "factor": 1.5,
+      "cost_check": 15.0,
+      "cost_missed_failure": 500,
+      "ratio_missed_to_check": 33.33,
+      "threshold_reoptimized": 0.0013623103,
+      "threshold_fixed": 0.001362310330346284,
+      "best_policy_on_development": "reoptimized_on_oof",
+      "development": {
+        "flag_none": {
+          "cost": 500000.0,
+          "checks_per_1000": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1000,
+          "tn": 59000
+        },
+        "flag_all": {
+          "cost": 885000.0,
+          "checks_per_1000": 1000.0,
+          "recall": 1.0,
+          "tp": 1000,
+          "fp": 59000,
+          "fn": 0,
+          "tn": 0
+        },
+        "fixed_official_threshold": {
+          "cost": 41155.0,
+          "checks_per_1000": 38.93,
+          "recall": 0.959,
+          "tp": 959,
+          "fp": 1377,
+          "fn": 41,
+          "tn": 57623
+        },
+        "reoptimized_on_oof": {
+          "cost": 40655.0,
+          "checks_per_1000": 38.95,
+          "recall": 0.96,
+          "tp": 960,
+          "fp": 1377,
+          "fn": 40,
+          "tn": 57623
+        }
+      },
+      "test": {
+        "flag_none": {
+          "cost": 187500.0,
+          "checks_per_1000": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 375,
+          "tn": 15625
+        },
+        "flag_all": {
+          "cost": 234375.0,
+          "checks_per_1000": 1000.0,
+          "recall": 1.0,
+          "tp": 375,
+          "fp": 15625,
+          "fn": 0,
+          "tn": 0
+        },
+        "fixed_official_threshold": {
+          "cost": 13310.0,
+          "checks_per_1000": 44.56,
+          "recall": 0.9573,
+          "tp": 359,
+          "fp": 354,
+          "fn": 16,
+          "tn": 15271
+        },
+        "reoptimized_on_oof": {
+          "cost": 13310.0,
+          "checks_per_1000": 44.56,
+          "recall": 0.9573,
+          "tp": 359,
+          "fp": 354,
+          "fn": 16,
+          "tn": 15271
+        }
+      },
+      "test_saving_vs_flag_none_pct": 92.9,
+      "test_diff_reoptimized_minus_fixed_95": [
+        0.0,
+        0.0
+      ],
+      "test_diff_reoptimized_minus_none_95": [
+        -191235.1,
+        -155882.0
+      ],
+      "capacity": [
+        {
+          "capacity_per_1000": 20,
+          "binding": true,
+          "threshold": 0.038203689671999864,
+          "development": {
+            "cost": 70465.0,
+            "checks_per_1000": 20.0,
+            "recall": 0.869,
+            "tp": 869,
+            "fp": 331,
+            "fn": 131,
+            "tn": 58669
+          },
+          "test": {
+            "cost": 23700.0,
+            "checks_per_1000": 25.62,
+            "recall": 0.88,
+            "tp": 330,
+            "fp": 80,
+            "fn": 45,
+            "tn": 15545
+          }
+        },
+        {
+          "capacity_per_1000": 30,
+          "binding": true,
+          "threshold": 0.004387745461999993,
+          "development": {
+            "cost": 44445.0,
+            "checks_per_1000": 30.0,
+            "recall": 0.937,
+            "tp": 937,
+            "fp": 863,
+            "fn": 63,
+            "tn": 58137
+          },
+          "test": {
+            "cost": 14195.0,
+            "checks_per_1000": 35.38,
+            "recall": 0.9413,
+            "tp": 353,
+            "fp": 213,
+            "fn": 22,
+            "tn": 15412
+          }
+        },
+        {
+          "capacity_per_1000": 45,
+          "binding": false
+        }
+      ]
+    },
+    {
+      "factor": 2.0,
+      "cost_check": 20.0,
+      "cost_missed_failure": 500,
+      "ratio_missed_to_check": 25.0,
+      "threshold_reoptimized": 0.0029801566,
+      "threshold_fixed": 0.001362310330346284,
+      "best_policy_on_development": "reoptimized_on_oof",
+      "development": {
+        "flag_none": {
+          "cost": 500000.0,
+          "checks_per_1000": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1000,
+          "tn": 59000
+        },
+        "flag_all": {
+          "cost": 1180000.0,
+          "checks_per_1000": 1000.0,
+          "recall": 1.0,
+          "tp": 1000,
+          "fp": 59000,
+          "fn": 0,
+          "tn": 0
+        },
+        "fixed_official_threshold": {
+          "cost": 48040.0,
+          "checks_per_1000": 38.93,
+          "recall": 0.959,
+          "tp": 959,
+          "fp": 1377,
+          "fn": 41,
+          "tn": 57623
+        },
+        "reoptimized_on_oof": {
+          "cost": 46840.0,
+          "checks_per_1000": 32.73,
+          "recall": 0.947,
+          "tp": 947,
+          "fp": 1017,
+          "fn": 53,
+          "tn": 57983
+        }
+      },
+      "test": {
+        "flag_none": {
+          "cost": 187500.0,
+          "checks_per_1000": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 375,
+          "tn": 15625
+        },
+        "flag_all": {
+          "cost": 312500.0,
+          "checks_per_1000": 1000.0,
+          "recall": 1.0,
+          "tp": 375,
+          "fp": 15625,
+          "fn": 0,
+          "tn": 0
+        },
+        "fixed_official_threshold": {
+          "cost": 15080.0,
+          "checks_per_1000": 44.56,
+          "recall": 0.9573,
+          "tp": 359,
+          "fp": 354,
+          "fn": 16,
+          "tn": 15271
+        },
+        "reoptimized_on_oof": {
+          "cost": 14720.0,
+          "checks_per_1000": 38.56,
+          "recall": 0.9493,
+          "tp": 356,
+          "fp": 261,
+          "fn": 19,
+          "tn": 15364
+        }
+      },
+      "test_saving_vs_flag_none_pct": 92.1,
+      "test_diff_reoptimized_minus_fixed_95": [
+        -1900.0,
+        1580.0
+      ],
+      "test_diff_reoptimized_minus_none_95": [
+        -190104.0,
+        -154557.5
+      ],
+      "capacity": [
+        {
+          "capacity_per_1000": 20,
+          "binding": true,
+          "threshold": 0.038203689671999864,
+          "development": {
+            "cost": 72120.0,
+            "checks_per_1000": 20.0,
+            "recall": 0.869,
+            "tp": 869,
+            "fp": 331,
+            "fn": 131,
+            "tn": 58669
+          },
+          "test": {
+            "cost": 24100.0,
+            "checks_per_1000": 25.62,
+            "recall": 0.88,
+            "tp": 330,
+            "fp": 80,
+            "fn": 45,
+            "tn": 15545
+          }
+        },
+        {
+          "capacity_per_1000": 30,
+          "binding": true,
+          "threshold": 0.004387745461999993,
+          "development": {
+            "cost": 48760.0,
+            "checks_per_1000": 30.0,
+            "recall": 0.937,
+            "tp": 937,
+            "fp": 863,
+            "fn": 63,
+            "tn": 58137
+          },
+          "test": {
+            "cost": 15260.0,
+            "checks_per_1000": 35.38,
+            "recall": 0.9413,
+            "tp": 353,
+            "fp": 213,
+            "fn": 22,
+            "tn": 15412
+          }
+        },
+        {
+          "capacity_per_1000": 45,
+          "binding": false
+        }
+      ]
+    },
+    {
+      "factor": 3.0,
+      "cost_check": 30.0,
+      "cost_missed_failure": 500,
+      "ratio_missed_to_check": 16.67,
+      "threshold_reoptimized": 0.0042881278,
+      "threshold_fixed": 0.001362310330346284,
+      "best_policy_on_development": "reoptimized_on_oof",
+      "development": {
+        "flag_none": {
+          "cost": 500000.0,
+          "checks_per_1000": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1000,
+          "tn": 59000
+        },
+        "flag_all": {
+          "cost": 1770000.0,
+          "checks_per_1000": 1000.0,
+          "recall": 1.0,
+          "tp": 1000,
+          "fp": 59000,
+          "fn": 0,
+          "tn": 0
+        },
+        "fixed_official_threshold": {
+          "cost": 61810.0,
+          "checks_per_1000": 38.93,
+          "recall": 0.959,
+          "tp": 959,
+          "fp": 1377,
+          "fn": 41,
+          "tn": 57623
+        },
+        "reoptimized_on_oof": {
+          "cost": 56220.0,
+          "checks_per_1000": 30.23,
+          "recall": 0.94,
+          "tp": 940,
+          "fp": 874,
+          "fn": 60,
+          "tn": 58126
+        }
+      },
+      "test": {
+        "flag_none": {
+          "cost": 187500.0,
+          "checks_per_1000": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 375,
+          "tn": 15625
+        },
+        "flag_all": {
+          "cost": 468750.0,
+          "checks_per_1000": 1000.0,
+          "recall": 1.0,
+          "tp": 375,
+          "fp": 15625,
+          "fn": 0,
+          "tn": 0
+        },
+        "fixed_official_threshold": {
+          "cost": 18620.0,
+          "checks_per_1000": 44.56,
+          "recall": 0.9573,
+          "tp": 359,
+          "fp": 354,
+          "fn": 16,
+          "tn": 15271
+        },
+        "reoptimized_on_oof": {
+          "cost": 17390.0,
+          "checks_per_1000": 35.38,
+          "recall": 0.9413,
+          "tp": 353,
+          "fp": 213,
+          "fn": 22,
+          "tn": 15412
+        }
+      },
+      "test_saving_vs_flag_none_pct": 90.7,
+      "test_diff_reoptimized_minus_fixed_95": [
+        -3470.0,
+        1420.2
+      ],
+      "test_diff_reoptimized_minus_none_95": [
+        -187418.2,
+        -151719.8
+      ],
+      "capacity": [
+        {
+          "capacity_per_1000": 20,
+          "binding": true,
+          "threshold": 0.038203689671999864,
+          "development": {
+            "cost": 75430.0,
+            "checks_per_1000": 20.0,
+            "recall": 0.869,
+            "tp": 869,
+            "fp": 331,
+            "fn": 131,
+            "tn": 58669
+          },
+          "test": {
+            "cost": 24900.0,
+            "checks_per_1000": 25.62,
+            "recall": 0.88,
+            "tp": 330,
+            "fp": 80,
+            "fn": 45,
+            "tn": 15545
+          }
+        },
+        {
+          "capacity_per_1000": 30,
+          "binding": true,
+          "threshold": 0.004387745461999993,
+          "development": {
+            "cost": 57390.0,
+            "checks_per_1000": 30.0,
+            "recall": 0.937,
+            "tp": 937,
+            "fp": 863,
+            "fn": 63,
+            "tn": 58137
+          },
+          "test": {
+            "cost": 17390.0,
+            "checks_per_1000": 35.38,
+            "recall": 0.9413,
+            "tp": 353,
+            "fp": 213,
+            "fn": 22,
+            "tn": 15412
+          }
+        },
+        {
+          "capacity_per_1000": 45,
+          "binding": false
+        }
+      ]
+    }
+  ],
+  "break_even_factor_fixed_threshold": 34.82
+}

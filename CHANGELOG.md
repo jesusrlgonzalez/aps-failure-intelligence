@@ -4,6 +4,13 @@ All notable changes follow [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+- `aps_intel.sensitivity`: decision sensitivity to the cost of an unnecessary check (×0.8 to ×3, miss cost fixed). Thresholds and the best policy are chosen only on training out-of-fold scores; the consumed test set only reports consequences. Compares no triage, check every truck, the fixed official threshold and the re-chosen one, with 95 % bootstrap intervals and illustrative workshop capacities. Report in `reports/sensitivity/sensitivity.json`.
+- Tests that fail if a threshold or the best policy is chosen on the test set, or if results are labelled as currency.
+
+### Documentation
+- First block of the README (EN/ES) and the model card state the scope: public 2016 benchmark, abstract challenge costs, simulated fleet retrospective, no customer deployment.
+
 ### Security
 - Browser demo (Hugging Face Space): the Python requirements are pinned (`altair==6.0.0`, `scipy==1.14.1`, `openpyxl==3.1.5`, `et-xmlfile==2.0.0`), so the code that runs next to an uploaded file no longer changes between visits.
 - The demo page sets a Content-Security-Policy whose `connect-src` only allows the page itself, jsDelivr and PyPI; it also applies to the Pyodide worker.
