@@ -20,7 +20,7 @@ POST_HOLDOUT_TUNING = FALSE
 | 0 · Repository and licensing | Done | LICENSE (Apache-2.0), NOTICE (data CC BY 4.0 per UCI, GPL-3.0 per file headers) |
 | 1 · Data intake and audit | Done | [01](01_data_intake_and_audit.md), [train_audit.json](../reports/audit/train_audit.json), `tests/test_data.py` |
 | 2 · Problem contract | Done | [02](02_problem_contract.md) |
-| 3 · Baseline and CV protocol | Done | [03](03_baseline.md): logistic regression 52,100 vs 500,000 trivial |
+| 3 · Baseline and CV protocol | Done | [03](03_baseline.md): logistic regression 52,100 vs 500,000 trivial (49,550–52,950 on other processors) |
 | 4 · Candidates and missingness strategy | Done | [04](04_candidates.md): LightGBM + indicators 34,600 (weak edge, within fold spread) |
 | 5 · Controlled tuning and threshold | Done | [05](05_tuning.md): trial 4, 34,440; seed spread 33,220–38,480 |
 | 6 · Single final evaluation | Done | [06](06_final_evaluation.md): cost 11,540 (95 % CI 7,940–15,661), recall 95.7 % |

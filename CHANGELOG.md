@@ -10,6 +10,7 @@ All notable changes follow [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Documentation
 - First block of the README (EN/ES) and the model card state the scope: public 2016 benchmark, abstract challenge costs, simulated fleet retrospective, no customer deployment.
+- The logistic-regression comparator keeps its historical CV cost (52,100) and now documents the 49,550–52,950 range observed with other OpenBLAS kernels (`docs/03_baseline.md`); `tests/test_baseline_docs.py` keeps every mention consistent. The selected model and every decision reproduce exactly.
 
 ### Security
 - Browser demo (Hugging Face Space): the Python requirements are pinned (`altair==6.0.0`, `scipy==1.14.1`, `openpyxl==3.1.5`, `et-xmlfile==2.0.0`), so the code that runs next to an uploaded file no longer changes between visits.

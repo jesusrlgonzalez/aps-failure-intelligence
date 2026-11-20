@@ -68,7 +68,7 @@ On the simulated example fleet (140 tractors, 26 weeks), the rule chosen on the 
 |---|---|
 | 1 · Intake and audit | [01](docs/01_data_intake_and_audit.md): 60,000 trucks, 1.7 % failures, missingness is informative |
 | 2 · Problem contract | [02](docs/02_problem_contract.md): official cost as the only selection metric |
-| 3 · Baseline and protocol | [03](docs/03_baseline.md): logistic regression 52,100 vs 500,000 trivial (training CV) |
+| 3 · Baseline and protocol | [03](docs/03_baseline.md): logistic regression 52,100 vs 500,000 trivial (training CV; 49,550–52,950 on other processors, [why](docs/03_baseline.md#reproducibility-across-processors)) |
 | 4 · Candidates | [04](docs/04_candidates.md): LightGBM + missing indicators, 34,600 |
 | 5 · Controlled tuning | [05](docs/05_tuning.md): 34,440; seed spread 33,220 – 38,480 |
 | 6 · Single final evaluation | [06](docs/06_final_evaluation.md): 11,540 on the official test set |

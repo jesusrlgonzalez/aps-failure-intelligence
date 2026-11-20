@@ -4,12 +4,14 @@ Reproduce with `PYTHONPATH=src python -B -m aps_intel.candidates` → [candidate
 
 | Candidate | CV cost | Missed APS | Unnecessary checks | PR-AUC | Fold-cost SD | Fit (s, 5 folds) |
 |---|---:|---:|---:|---:|---:|---:|
-| Logistic regression (baseline) | 52,100 | 71 | 1,660 | 0.783 | 2,175 | 90 |
+| Logistic regression (baseline)¹ | 52,100 | 71 | 1,660 | 0.783 | 2,175 | 90 |
 | Random forest (balanced) | 41,710 | 44 | 1,971 | 0.850 | 1,085 | 465 |
 | HistGradientBoosting | 38,340 | 45 | 1,584 | 0.879 | 964 | 38 |
 | LightGBM | 36,090 | 41 | 1,559 | 0.900 | 911 | 81 |
 | **LightGBM + missing indicators** | **34,600** | **38** | 1,560 | 0.899 | **665** | 86 |
 | LightGBM + histogram aggregates | 36,790 | 45 | 1,429 | 0.902 | 1,189 | 88 |
+
+¹ Historical result; 49,550–52,950 on other processors, see [03](03_baseline.md#reproducibility-across-processors). The other rows reproduced exactly.
 
 ## Reading
 
